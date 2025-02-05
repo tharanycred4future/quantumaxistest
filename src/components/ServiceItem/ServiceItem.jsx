@@ -3,13 +3,15 @@
 import './ServiceItem.css'
 import PropTypes from 'prop-types';
 
-const ServiceItem = ({name,text,description}) => {
+const ServiceItem = ({name,text,image,description}) => {
   return (
     <div className="service-item">
      
       <div className="card">
       
               <div  className="service-item-img-container front" >
+                <img src={image} alt="" className="service-item-img" />
+                <p className="front-text">{name}</p>
                
                   
             
