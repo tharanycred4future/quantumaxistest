@@ -10,6 +10,9 @@ import repManageImg from './reputation management.jpg'
 import socialMediaImg from './social media management.jpg'
 import webDevImg from './web development.jpg'
 import serviceIcon from './service-item-icon.png'
+import whatsappIcon from './whatsapp_icon.png'
+import facebookIcon from './facebook_icon.png'
+import crossIcon from './cross_icon.png'
 
 
 
@@ -86,7 +89,10 @@ export const assets = {
     repManageImg,
     socialMediaImg,
     webDevImg,
-    serviceIcon
+    serviceIcon,
+    whatsappIcon,
+    facebookIcon,
+    crossIcon
 
 
 

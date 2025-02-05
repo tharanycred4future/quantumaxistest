@@ -89,6 +89,7 @@
     transition: all 0.3s;
     pointer-events: none;
     border-radius: 0.5rem;
+    padding: 5px;
     z-index:2;
   }
   .dropdown:hover .dropdown-menu {

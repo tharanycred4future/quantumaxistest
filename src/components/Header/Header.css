@@ -2,19 +2,21 @@
 .header {
   position: relative; /* Enables absolute positioning inside */
   width: 100%;
-  padding: 2rem;
-  background: #121212;
+  background: black;
   color: white;
   text-align: center;
+  padding: 0px;
+ 
 }
 .slider-wrapper {
   position: absolute;
-  top:70%;
+  top:75%;
   /* Adjust as needed */
   left: 30%;
   transform: translateX(-50%);
   width: 80%;
   max-width: 600px;
+  margin-top: 70px;
 }
   section {
     display: flex;
@@ -25,6 +27,7 @@
     height: 100vh;
     z-index: 1;
   }
+  
   
   .title {
     font-family: "Exo", sans-serif;

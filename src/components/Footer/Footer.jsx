@@ -10,11 +10,7 @@ const Footer = () => {
           <div className="footer-content-left">
             <div className='footer-content-left-in'>
             <img src={assets.logo} alt="" className="footer-logo" />
-            <div className="social-links">
-                <img onClick={()=>window.open('https://www.instagram.com/','blank')}src={assets.instagram} alt="" className="social-link" />
-                <img onClick={() =>window.open('https://www.linkedin.com/', '_blank')} src={assets.linkedin} alt="" className="social-link" />
-                <img onClick={()=>window.open('https://x.com/?logout=1738668653595&mx=2', '_blank')} src={assets.twitter} alt="" className="social-link" />
-            </div>
+            
             </div>
           </div>
           <div>
@@ -31,6 +27,15 @@ const Footer = () => {
                 <li className='underline'><a>Cookie Ploicy</a></li>
               </ul>
           </div>
+          <ul className="social-icons">
+              <h3>Connect with us:</h3>
+            <div className="social-links">
+                 
+                <img onClick={() =>window.open('', '_blank')} src={assets.facebookIcon} alt="" className="social-link" />
+                <img onClick={()=>window.open('','blank')}src={assets.instagram} alt="" className="social-link" />
+                <img onClick={()=>window.open('', '_blank')} src={assets.whatsappIcon} alt="" className="social-link" />
+            </div>
+          </ul>
         </div>
           
          
@@ -41,8 +46,10 @@ const Footer = () => {
                 <a href='#'>© {year} Quantum-Axis All Rights Reserved</a>
             </div>
             <div className="footer-text-right">
-              <a className='underline' href='#'>Terms of Service </a>
-              <a className='underline' href="#">    Privacy Policy</a>
+              <a className='underline'  href='#'>Terms of Service </a>
+              <div className='alignment'>
+              <a className='underline ' href="#" >Privacy Policy</a>
+              </div>
             </div>
             </div>
           </div>
