@@ -1,0 +1,37 @@
+.service-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+   
+    padding: 60px 50px;
+  
+}
+.service-page h2{
+    font-size: max(2vw,24px);
+    color: orange;
+    font-weight: 600;
+    padding: 30px;
+    margin-top: 150px;
+}
+.service-page p{
+    width: 90%; 
+    text-align: center;
+    padding: 30px;
+}
+
+
+.service-page-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px;
+    background: black;
+}
+.card-container{
+    margin-top: 150px;
+ box-shadow: 0px 0px 15px 5px orange;
+}

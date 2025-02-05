@@ -1,0 +1,133 @@
+
+.header {
+  position: relative; /* Enables absolute positioning inside */
+  width: 100%;
+  padding: 2rem;
+  background: #121212;
+  color: white;
+  text-align: center;
+}
+.slider-wrapper {
+  position: absolute;
+  top:70%;
+  /* Adjust as needed */
+  left: 30%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 600px;
+}
+  section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    height: 100vh;
+    z-index: 1;
+  }
+  
+  .title {
+    font-family: "Exo", sans-serif;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-variation-settings: "wght" 100;
+    transition: font-variation-settings 1s ease-out;
+  }
+  
+  .title:hover {
+   font-variation-settings: "wght" 1000;
+  }
+  
+  .fas {
+    font-family: FontAwesome;
+    font-size: 60px;
+    font-style: normal;
+    color: orange;
+    padding: 0px;
+    margin-bottom: -10px;
+    transform: translateY(-5px);
+    display: flex;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .hero-text{
+    font-size: 16px;
+    font-weight: 200;
+    width: 80%;
+    margin-left: 120px;
+    opacity: 0; /* Start with hidden text */
+    animation: fadeInUp 1s ease-out forwards; /* Apply the animation */
+    animation-delay: 0.5s; /* Optional: delay the animation */
+   
+  }
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+ 
+
+  h4 {
+    
+    letter-spacing: 0;
+    padding: 0px;
+    display: inline-flex;
+    margin: 0;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  
+    /* Clip Background Image */
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+  
+    /* Animate Background Image */
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+    animation: aitf 80s linear infinite;
+  
+    /* Activate hardware acceleration for smoother animations */
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  /* Animate Background Image */
+  @-webkit-keyframes aitf {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
+  @keyframes aitf {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
+  .hero-button{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    width: max(15vw, 200px);
+    padding: 12px 0px;
+    border-radius: 83px;
+    background-color: orange;
+    cursor: pointer;
+
+  }

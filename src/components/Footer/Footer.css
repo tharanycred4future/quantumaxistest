@@ -1,0 +1,108 @@
+
+.footer{
+   
+    background-color: #000000;
+    color: white;
+    padding: 100px 20px 30px 20px;
+    
+   
+}
+.social-links{
+    margin-left: 25px;
+    margin-top: 40px;
+}
+.social-link{
+    width: 30px;
+    height: 30px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-around
+}
+
+.footer-content-center, .footer-content-right{
+    list-style: none;
+    
+    
+
+}
+.footer-content-center li{
+    gap: 20px;
+}
+.footer-logo{
+    width: 150px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.footer-top{
+    display: flex;
+   
+}
+.footer hr{
+    width: 100%;
+    border: 1px solid white;
+    background-color: white;
+    height: 2px;
+    margin: 10px;
+    border: none;
+}
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-text-right{
+    display: flex;
+    gap: 30px;
+    
+}
+.underline{
+    text-align: center;
+   
+    padding: 15px 0px;
+    cursor: pointer;
+
+    letter-spacing: 2px;
+    position:relative;
+    overflow:hidden;
+    margin: 0 20px;
+    white-space: nowrap; 
+  }
+  
+  .underline:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    background : #fff;
+    left: 50%;
+    height: 2px;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.7;
+  }
+  
+  .underline:hover:before {
+    width: 100%;
+    left:0;
+    background: orange;
+    
+  }
+.footer-content-right li:hover{
+    color: orange;
+  }
+  .footer-content-center li:hover{
+    color: orange;
+  }
+ 
+  .footer-text-right a:hover{
+    color:orange;
+  }
+
+

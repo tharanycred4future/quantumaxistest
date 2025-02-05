@@ -1,0 +1,349 @@
+<div className='navbar'>
+      <img src={logo} alt="" className="logo" />
+      <ul className="navbar-menu">
+        <li>Home</li>
+        <li>About us</li>
+        <li>Services</li>
+        <li>Resources</li>
+        <li>Contact us</li>
+      </ul>
+      
+    </div>
+    <div className='navbartwo-container '>
+    
+
+    <img src={logo} alt="" className="logo" />
+<ul className='navbartwo align-class'>
+  <li style={{"--i": "#FFFFFF", "--j": "#FFDB58", "--k": "#FFD700" }}>
+    <span className="icon"><ion-icon name="home-outline"></ion-icon></span>
+    <span className="title">Home</span>
+  </li>
+  <li style={{"--i": "#FFFFFF", "--j": "#FFDB58", "--k": "#FFD700" }}>
+    <span className="icon"><ion-icon name="people-outline"></ion-icon></span>
+    <span className="title">About us</span>
+  </li>
+  <li style={{"--i": "#FFFFFF", "--j": "#FFDB58", "--k": "#FFD700" }}>
+    <span className="icon"><ion-icon name="extension-puzzle-outline"></ion-icon></span>
+    <span className="title">Services</span>
+  </li>
+   <li style={{"--i": "#FFFFFF", "--j": "#FFDB58", "--k": "#FFD700" }}>
+    <span className="icon"><ion-icon name="trail-sign-outline"></ion-icon></span>
+    <span className="title">Resources</span>
+  </li>
+   <li style={{"--i": "#FFFFFF", "--j": "#FFDB58", "--k": "#FFD700" }}>
+    <span className="icon"><ion-icon name="share-social-outline"></ion-icon></span>
+    <span className="title">Contact us</span>
+  </li>
+  </ul>
+ 
+    </div>
+    <div className='navbarthree'>
+<ul className='navbar-menuthree'>
+    <li className="button-container-1">
+      <span className="mas">MASK1</span>
+    <button id='work' type="button" name="Hover">MASK1</button>
+  </li>
+
+  <li className="button-container-2">
+    <span className="mas">MASK2</span>
+  <button type="button" name="Hover">MASK2</button>
+</li>
+
+<li className="button-container-3">
+  <span className="mas">MASK3</span>
+<button type="button" name="Hover">MASK3</button>
+</li>
+</ul>
+</div>
+
+//css
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+} 
+
+
+.logo{
+    width:50px;
+    margin-left: 10px;
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+    
+
+} 
+.navbar-menu:has(li:hover) li:not(:hover) {
+    filter: blur(2px);
+  }
+
+  .navbartwo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:transparent;
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+
+  }
+  .align-class{
+    position: absolute;
+    right: 400px;
+  }
+  .navbartwo {
+    display: flex;
+    position: relative;
+    gap: 35px;
+  }
+  
+  .navbartwo li {
+    position: relative;
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    background: white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  }
+  
+  .navbartwo li::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 60px;
+    background: linear-gradient(45deg, var(--i), var(--j), var(--k));
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  .navbartwo li::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+    background: linear-gradient(45deg, var(--i), var(--j), var(--k));
+    transition: 0.5s;
+    filter: blur(15px);
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  .navbartwo li:hover {
+    width: 180px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+  }
+  
+  .navbartwo li:hover::before {
+    opacity: 1;
+  }
+  
+  .navbartwo li:hover::after {
+    opacity: 0.5;
+  }
+  
+  .navbartwo li ion-icon {
+    color: #777;
+    font-size: 1.75em;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+  }
+  
+  .navbartwo li:hover ion-icon {
+    transform: scale(0);
+    color: #fff;
+    transition-delay: 0s;
+  }
+  
+  .navbartwo li span {
+    position: absolute;
+    
+  }
+  
+  .navbartwo li .title {
+    color: #fff;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transform: scale(0);
+    transition: 0.5s;
+    transition-delay: 0s;
+  }
+  
+  .navbartwo li:hover .title {
+    transform: scale(1);
+    transition-delay: 0.25s;
+  }
+  .navbarthree{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:transparent;
+    color: white;
+    padding: 10px 20px;
+} 
+.navbar-menuthree{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+    
+
+}
+  .button-container-1,
+.button-container-2,
+.button-container-3 {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6vh;
+  overflow: hidden;
+  border: 1px solid;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  transition: 0.5s;
+  letter-spacing: 1px;
+  border-radius: 8px;
+}
+
+.button-container-1 button,
+.button-container-2 button,
+.button-container-3 button {
+  width: 101%;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-container-1 button {
+  background: #000;
+  -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+  mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+  -webkit-mask-size: 2300% 100%;
+  mask-size: 2300% 100%;
+  border: none;
+  color: #fff;
+  -webkit-animation: ani2 0.7s steps(22) forwards;
+  animation: ani2 0.7s steps(22) forwards;
+}
+
+.button-container-1 button:hover {
+  -webkit-animation: ani 0.7s steps(22) forwards;
+  animation: ani 0.7s steps(22) forwards;
+}
+
+.button-container-2 button {
+  background: #000;
+  -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+  mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+  -webkit-mask-size: 3000% 100%;
+  mask-size: 3000% 100%;
+  border: none;
+  color: #fff;
+  -webkit-animation: ani2 0.7s steps(29) forwards;
+  animation: ani2 0.7s steps(29) forwards;
+}
+
+.button-container-2 button:hover {
+  -webkit-animation: ani 0.7s steps(29) forwards;
+  animation: ani 0.7s steps(29) forwards;
+}
+
+.button-container-3 button {
+  background: #000;
+  -webkit-mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
+  mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
+  -webkit-mask-size: 7100% 100%;
+  mask-size: 7100% 100%;
+  border: none;
+  color: #fff;
+  -webkit-animation: ani2 0.7s steps(70) forwards;
+  animation: ani2 0.7s steps(70) forwards;
+}
+
+.button-container-3 button:hover {
+  -webkit-animation: ani 0.7s steps(70) forwards;
+  animation: ani 0.7s steps(70) forwards;
+}
+
+.mas {
+  position: absolute;
+  color: #000;
+  text-align: center;
+  width: 101%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+  margin-top: 17px;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+@-webkit-keyframes ani {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+  to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+}
+
+@keyframes ani {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+  to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+}
+
+@-webkit-keyframes ani2 {
+  from {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+  to {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+}
+
+@keyframes ani2 {
+  from {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+  to {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+}
+
+a {
+  color: #00ff95;
+}
+

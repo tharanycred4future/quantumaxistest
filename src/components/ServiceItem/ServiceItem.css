@@ -1,0 +1,160 @@
+.service-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+	border-radius: 3px;
+    color: white;
+    border-radius: 10px;
+    
+    width: 16rem;
+    height: 22rem;
+   
+    perspective: 500px;
+    
+}
+.service-item:hover > .card{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+/* .service-item-img{
+     width: 16rem;
+    height: 22rem;
+    object-fit: contain;
+} */
+.card{
+    width: 16rem;
+    height: 22rem;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+	
+	
+	
+}
+
+.front,
+.back{
+    width: 16rem;
+    height: 22rem;
+    
+    position: absolute;
+    backface-visibility: hidden;
+
+    /*border animation  starts */
+    border: 0.2rem solid;
+    border-image: conic-gradient(
+			from var(--angle),
+			var(--c2),
+			var(--c1) 0.1turn,
+			var(--c1) 0.15turn,
+			var(--c2) 0.25turn
+		)
+		30;
+	animation: borderRotate var(--d) linear infinite forwards;
+ /*border animation  end of this class */
+
+}
+.front{
+   
+    overflow: hidden;
+    width: 16rem;
+    height: 22rem;
+}
+.back{
+    background-color: black;
+    transform :rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*border animation*/
+@property --angle {
+	syntax: "<angle>";
+	initial-value: 90deg;
+	inherits: true;
+}
+
+@property --gradX {
+	syntax: "<percentage>";
+	initial-value: 50%;
+	inherits: true;
+}
+
+@property --gradY {
+	syntax: "<percentage>";
+	initial-value: 0%;
+	inherits: true;
+}
+:root {
+	--d: 2500ms;
+	--angle: 90deg;
+	--gradX: 100%;
+	--gradY: 50%;
+	--c1: rgba(255, 215, 0, 1);
+	--c2: rgba(255, 165, 0, 0.1);
+}
+.front, .back:nth-child(2) {
+	border-image: radial-gradient(
+			ellipse at var(--gradX) var(--gradY),
+			var(--c1),
+			var(--c1) 10%,
+			var(--c2) 40%
+		)
+		30;
+	animation: borderRadial var(--d) linear infinite forwards;
+}
+
+@keyframes borderRotate {
+	100% {
+		--angle: 420deg;
+	}
+}
+
+@keyframes borderRadial {
+	20% {
+		--gradX: 100%;
+		--gradY: 50%;
+	}
+	40% {
+		--gradX: 100%;
+		--gradY: 100%;
+	}
+	60% {
+		--gradX: 50%;
+		--gradY: 100%;
+	}
+	80% {
+		--gradX: 0%;
+		--gradY: 50%;
+	}
+	100% {
+		--gradX: 50%;
+		--gradY: 0%;
+	}
+}
+.card-container{
+	margin: 20px;
+	background-color: white;
+}
+
+.service-item-des{
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+    font-size: 0.8em;
+
+}
+.service-item-title{
+	color: #FFD700;
+}
+
+.service-item-img{
+	object-fit: cover;
+	width: 16rem;
+	height: 23rem;
+}
