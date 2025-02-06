@@ -22,7 +22,7 @@ function App() {
        <Home />
        <ServicePage />
         <Routes>
-         
+          <Route path='/' element={<Home />} />
           <Route path='/about-us' element={<AboutUs />} />
           
           <Route path='/resources' element={<Resources/>} />
