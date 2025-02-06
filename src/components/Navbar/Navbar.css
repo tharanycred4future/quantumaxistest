@@ -124,7 +124,8 @@
 @media (min-width:701px) and (max-width:768px){
 
   .navbar .logo{
-    width: 90px;
+    width: 100px;
+    margin-left: 10px;
    
   }
 
@@ -142,6 +143,7 @@
 @media (min-width: 769px) and (max-width:992px) {
   .navbar .logo {
     width: 100px;
+    margin-left: 10px;
   }
   .navbar-menu-link {
     

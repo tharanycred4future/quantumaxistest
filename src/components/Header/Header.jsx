@@ -11,9 +11,9 @@ const Header = () => {
       <div className="title">
         <i className="fas fa-angle-double-left"></i> <h4>Accelerate Your Business Growth</h4><i className="fas fa-angle-double-right"></i>
        
-        <p className='hero-text'>We just don’t sell you our marketing solutions; we help you utilize these solutions to increase your sales beyond what you were doing before joining us. </p>
        
         </div>
+        <p className='hero-text'>We just don’t sell you our marketing solutions; we help you utilize these solutions to increase your sales beyond what you were doing before joining us. </p>
         
         <motion.button 
         className='hero-button'
