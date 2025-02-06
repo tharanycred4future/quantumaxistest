@@ -115,6 +115,7 @@
  @media (min-width:320px) and (max-width:700px){
   .navbar .logo{
     width:150px;
+    margin-left: 10px;
   }
   .navbar-menu{
     display: none;
