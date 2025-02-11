@@ -10,23 +10,22 @@
 }
 .slider-wrapper {
   position: absolute;
-  top:75%;
+  top:100%;
   /* Adjust as needed */
-  left: 30%;
+  left: 40%;
   transform: translateX(-50%);
-  width: 80%;
-  max-width: 600px;
-  margin-top: 70px;
+ 
+
+ 
+ 
 }
   section {
     display: flex;
-   
     justify-content: center;
     flex-direction: column;
     align-items: center;
     background: black;
-    padding: 180px 0px;
-    
+    padding: 180px 0px 80px 0px;
     z-index: 1;
   }
   
@@ -166,6 +165,17 @@
   font-size: 15px;
   margin: 0px;
   
+}
+.slider-wrapper{
+  position: absolute;
+  top:105%;
+  /* Adjust as needed */
+  left: 74%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 500px;
+  margin-top: 30px;
+
 }
 }
 
