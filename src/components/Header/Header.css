@@ -140,21 +140,21 @@
   }
 @media (min-width:320px) and (max-width:480px) {
   section{
-    padding: 60px 0px 0px 40px;
+    padding: 50px 0px 0px 40px;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   .title{
-    font-size: 50px;
+    font-size: 45px;
     width: 100%;
   }
   
   
  
   h4{
-     font-size: 40px;
+     font-size: 35px;
 
   }
   .fas{
@@ -163,7 +163,7 @@
   
 .hero-text{
  
-  font-size: 20px;
+  font-size: 15px;
   margin: 0px;
   
 }
