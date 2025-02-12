@@ -165,3 +165,7 @@
 		--gradY: 0%;
 	}
 }
+
+@media (min-width:320px) and (max-width: 480px) {
+	
+}

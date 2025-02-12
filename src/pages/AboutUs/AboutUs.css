@@ -1,0 +1,61 @@
+.about-us-header {
+    height:60vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/abt-us-header-img.png') no-repeat;
+    background-size: cover;
+    position: relative;
+    
+  }
+ 
+  .abt-us-hero{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 70%;
+    bottom: 20%;
+    left: 10vw;
+    z-index: 2;
+  }
+ 
+  .abt-us-hero h2{
+    position: relative;
+    font-weight: 600;
+    color: white;
+    font-size: max(4.5vw, 30px);
+
+  }
+  .abt-us-hero p{
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+  }
+  .abt-us-mission{
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+
+  }
+  .abt-us-mission-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    max-width: 60%;
+  }
+  .abt-us-mission-text h3{
+   font-size: 50px;
+   padding: 10px;
+  }
+  .abt-us-mission-text p{
+    font-size: 16px;
+    line-height: 1.5;
+
+  }
+
+.mission-img{
+    width: 300px;
+    padding: 20px 0px 0px 10px;
+}

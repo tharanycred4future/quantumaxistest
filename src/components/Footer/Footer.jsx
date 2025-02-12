@@ -42,7 +42,7 @@ const Footer = () => {
           <div className="footer-bottom">
           <hr />
           <div className='footer-text'>
-            <div className="footer-text-left ">
+            <div className="footer-text-left">
                 <a href='#'>© {year} Quantum-Axis All Rights Reserved</a>
             </div>
             <div className="footer-text-right">

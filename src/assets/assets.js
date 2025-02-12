@@ -13,6 +13,8 @@ import serviceIcon from './service-item-icon.png'
 import whatsappIcon from './whatsapp_icon.png'
 import facebookIcon from './facebook_icon.png'
 import crossIcon from './cross_icon.png'
+import aboutUsImg from './abt-us-header-img.png'
+import missionImg from './misn-img.png'
 
 
 
@@ -92,7 +94,9 @@ export const assets = {
     serviceIcon,
     whatsappIcon,
     facebookIcon,
-    crossIcon
+    crossIcon,
+    aboutUsImg,
+    missionImg
 
 
 

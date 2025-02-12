@@ -36,3 +36,17 @@
 .open-popup-btn:hover{
   background-color: yellow;
 }
+
+@media (min-width:320px) and (max-width:480px){
+  .slider h2{
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .open-popup-btn{
+    font-size: 10px;
+    margin: 3px;
+  }
+  .slider-container{
+    padding: 15px 10px;
+  }
+}
