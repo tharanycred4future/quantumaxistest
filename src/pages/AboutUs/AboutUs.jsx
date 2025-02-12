@@ -32,27 +32,31 @@ const AboutUs = () => {
         <div className="core-values">
           <div className="core-values-cover">
           <div  className="core-value">
-            <img src="" alt="" className="core-value-img" />
+          <i className="fa-solid fa-award"></i>
             <h5>Transparency</h5>
             <p>It is important to us to be upfront about the services we provide and their realistic outcomes for your business. It is not in any stakeholder’s best interest to be sold on a product or service that is not right for their business at that time.</p>
           </div>
           <div className="core-value">
-           <img src="" alt="" className="core-value-img" />
+          
+ 
+
+           <i className="fa-solid fa-seedling"></i>
            <h5>Frugality</h5>
-           <p>Marketing costs are a reality for every business, and we believe each dollar spent should go as far as possible, minimizing, if not eliminating, wasteful marketing spending. We deeply understand that no matter how much you make, minimizing costs while retaining quality is a measure that is always meant to be strived for.</p>
+           <p>Marketing costs are inevitable, but every dollar should be spent efficiently to minimize waste. Regardless of revenue, reducing costs while maintaining quality is always a priority.</p>
           </div>
           <div className="core-value">
-            <img src="" alt="" className="core-value-img" />
+          <i className="fa-solid fa-recycle"></i>
             <h5>Longevity</h5>
             <p>We believe that the mission of TAA revolves around helping small businesses grow, which is why we progressively introduce certain tools and services as our relationship begins to develop and trust is established.</p>
           </div>
           <div className="core-value">
-            <img src="" alt="" className="core-value-img" />
+          <i className="fa-solid fa-scroll"></i>
             <h5>Altruism</h5>
             <p>As a marketing company, we understand that the content we produce will reach wide audiences. It is our core belief that anything we release will not be detrimental to any stakeholders or potential content viewers.</p>
           </div>
+         
           <div className="core-value">
-            <img src="" alt="" className="core-value-img" />
+          <i className="fa-solid fa-hand-holding-hand"></i>
             <h5>Inclusion</h5>
             <p>In a modern, technologically connected world, there is no room for exclusion based on race, class, education level, etc. We stand by these beliefs and hire accordingly.</p>
           </div>

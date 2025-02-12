@@ -15,6 +15,7 @@ import facebookIcon from './facebook_icon.png'
 import crossIcon from './cross_icon.png'
 import aboutUsImg from './abt-us-header-img.png'
 import missionImg from './misn-img.png'
+import abtIcon1 from './icon1.png'
 
 
 
@@ -96,7 +97,8 @@ export const assets = {
     facebookIcon,
     crossIcon,
     aboutUsImg,
-    missionImg
+    missionImg,
+    abtIcon1
 
 
 
