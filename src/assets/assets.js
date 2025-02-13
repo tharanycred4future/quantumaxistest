@@ -1,4 +1,5 @@
 import logo from './logo1.png';
+import logoBgRemoved from './logo-removedbg.png'
 import instagram from './instagram.png';
 import linkedin from './linkedin.png';
 import twitter from './twitter.png';
@@ -14,8 +15,9 @@ import whatsappIcon from './whatsapp_icon.png'
 import facebookIcon from './facebook_icon.png'
 import crossIcon from './cross_icon.png'
 import aboutUsImg from './abt-us-header-img.png'
-import missionImg from './misn-img.png'
+import missionImg from './abt-us-misn-img1.png'
 import abtIcon1 from './icon1.png'
+
 
 
 
@@ -98,7 +100,8 @@ export const assets = {
     crossIcon,
     aboutUsImg,
     missionImg,
-    abtIcon1
+    abtIcon1,
+    logoBgRemoved
 
 
 

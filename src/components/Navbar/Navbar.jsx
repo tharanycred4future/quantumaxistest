@@ -3,7 +3,7 @@ import  { useState } from 'react';
 import logo from '../../assets/logo1.png'
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBarsStaggered } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -31,7 +31,7 @@ const Navbar = () => {
       </ul>
 
       {/*Hamburger menu */}
-      <FontAwesomeIcon icon={faBars} className="menu " onClick={()=>setShowLinks(!showLinks)} />
+      <FontAwesomeIcon icon={faBarsStaggered}  className="menu " onClick={()=>setShowLinks(!showLinks)} />
       
 
       <ul className="sidebar-menu" style={{display:showLinks?"flex":"none"}}>

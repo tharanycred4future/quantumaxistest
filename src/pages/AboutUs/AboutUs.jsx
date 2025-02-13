@@ -1,10 +1,53 @@
 import { assets } from '../../assets/assets'
 import './AboutUs.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBarsStaggered } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
+import { useState } from 'react'
 
 const AboutUs = () => {
+  const [showLinks, setShowLinks] = useState(false);
   return (
+        <>
     <div className='about-us-container'>
       <div className="about-us-header ">
+      <nav>
+       <div>
+       <img className="abt-us-logo" src={assets.logoBgRemoved} alt=""  />
+       </div>
+    <ul className="alt-navbar-links">
+    
+      <li className="alt-navbar-link  underline"><Link  to='/'>Home</Link></li>
+      <li className="alt-navbar-link underline"><Link to='/about-us'>About Us</Link></li>
+      <li className="alt-navbar-link underline"><Link to='/services'>Services</Link></li>
+
+      <li className='dropdown' >
+      <li className="alt-navbar-link underline"><Link to='/resources'>Resources</Link></li>
+      <ul className="dropdown-menu">
+            <li><Link to='/blogs' className='dropdown-link' >Blogs</Link></li>
+            <li><Link to='/success-stories' className='dropdown-link'>Success Stories</Link></li>
+      </ul>
+      </li>
+      <li className="alt-navbar-link underline"><Link to='/contact-us'>Contact Us</Link></li>
+    </ul>
+    <div className="toggle-btn"><FontAwesomeIcon icon={faBarsStaggered} /></div>
+    <ul className="sidebar-menu" style={{display:showLinks?"flex":"none"}}>
+        <li><Link to='/' className='navbar-menu-link-sidebar ' onClick={()=>setShowLinks(false)}>Home</Link></li>
+        <li><Link to='/about-us' className='navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>About Us</Link></li>
+        <li><Link to='/services' className='navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>Services</Link></li>
+        
+        <li className='dropdown' >
+          <Link to='/resources' className='navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>Resources</Link>
+          <ul className="dropdown-menu">
+            <li><Link to='/blogs' className='dropdown-link-sidebar exclude-blur'  onClick={()=>setShowLinks(false)}>Blogs</Link></li>
+            <li><Link to='/success-stories' className='dropdown-link-sidebar exclude-blur' onClick={()=>setShowLinks(false)}>Success Stories</Link></li>
+          </ul>
+        </li>
+       
+        <li><Link to='/contact-us' className='navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>Contact Us</Link></li>
+        </ul>
+
+    </nav>
         <div className="abt-us-hero">
           <h2>We Bring Market Insight, Knowledge, and Experience To Your Marketing Blueprint</h2>
           <p>As highly integrated business professionals, the leadership of TAA brings immense knowledge and professionalism to our dealings. Collectively, we can help you tackle all your marketing challenges with ease.<br />
@@ -68,6 +111,7 @@ const AboutUs = () => {
 
      
     </div>
+    </>
   )
 }
 

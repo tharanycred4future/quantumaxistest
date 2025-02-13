@@ -1,5 +1,6 @@
 import'./Footer.css';
 import {assets} from '../../assets/assets';
+import { Link } from 'react-router-dom';
 const Footer = () => {
   var year = new Date().getFullYear();
   console.log(assets.logo);
@@ -15,16 +16,16 @@ const Footer = () => {
           </div>
           <div>
              <ul  className="footer-content-center">
-              <li className='underline'><a>About Us</a></li>
-              <li className='underline'><a>Our Team</a></li>
-              <li className='underline'><a>Contact Us</a></li>
+             <li className='underline'><Link to="/about-us">About Us</Link></li>
+              <li className='underline'><Link to="/our-team">Our Team</Link></li>
+              <li className='underline'><Link to="/contact-us">Contact Us</Link></li>
              </ul>
           </div>
           <div >
               <ul className="footer-content-right">
-                <li className='underline'><a>General Terms</a></li>
-                <li className='underline'><a>Data Security</a></li>
-                <li className='underline'><a>Cookie Ploicy</a></li>
+              <li className='underline'><Link to="/general-terms">General Terms</Link></li>
+              <li className='underline'><Link to="/data-security">Data Security</Link></li>
+              <li className='underline'><Link to="/cookie-policy">Cookie Policy</Link></li>
               </ul>
           </div>
           <ul className="social-icons">
@@ -46,9 +47,9 @@ const Footer = () => {
                 <a href='#'>© {year} Quantum-Axis All Rights Reserved</a>
             </div>
             <div className="footer-text-right">
-              <a className='underline'  href='#'>Terms of Service </a>
+            <Link className='underline' to="/terms-of-service">Terms of Service</Link>
               <div className='alignment'>
-              <a className='underline ' href="#" >Privacy Policy</a>
+              <Link className='underline' to="/privacy-policy">Privacy Policy</Link>
               </div>
             </div>
             </div>

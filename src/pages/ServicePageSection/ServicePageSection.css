@@ -1,0 +1,31 @@
+
+.service-page-section-header{
+    height:50vw;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/qa.png') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.service-page-section-content{
+   color: white;
+   position: absolute;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 70%;
+    bottom: 20%;
+    left: 10vw;
+    z-index: 2;
+    
+ 
+}
+.service-page-section-content h5{
+    font-size: max(4.5vw, 30px);
+}
+.service-page-section-content p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+

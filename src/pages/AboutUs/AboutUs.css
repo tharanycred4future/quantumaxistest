@@ -1,3 +1,33 @@
+nav{
+  display: flex ;
+  justify-content:space-between;
+  padding: 40px;
+  width: 100%;
+  height:100px;
+  position: relative;
+ 
+}
+.abt-us-logo{
+  width: 150px; 
+}
+nav .alt-navbar-links{
+  list-style: none;
+  display:flex;
+  gap: 20px; 
+  font-size: 1.2rem; 
+  color: #F4DD77;
+  position: absolute;
+  right: 60px;
+}
+
+.toggle-btn{
+  color:#ffd700;
+  font-size: 1.2rem;
+  display: none ;
+}
+
+/*about us content*/
+
 .about-us-header {
     height:60vw;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/abt-us-header-img.png') no-repeat;
@@ -122,4 +152,14 @@
 .core-value:hover{
   background: #f4d003;
   transform: translateY(-20px);
+}
+
+@media (min-width:320px) and (max-width:700px){
+ 
+  nav ul .alt-navbar-links{
+    display: none;
+  }
+  .toggle-btn{
+    display: flex;
+  }
 }

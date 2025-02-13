@@ -49,7 +49,7 @@
     font-family: FontAwesome;
     font-size: 60px;
     font-style: normal;
-    color: orange;
+    color: #F9D328;
     padding: 0px;
     margin-bottom: -10px;
     transform: translateY(-5px);
@@ -133,7 +133,7 @@
     width: max(15vw, 200px);
     padding: 12px 0px;
     border-radius: 83px;
-    background-color: orange;
+    background-color: #F9D328;
     cursor: pointer;
 
   }

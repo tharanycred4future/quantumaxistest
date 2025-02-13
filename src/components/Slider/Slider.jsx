@@ -69,14 +69,6 @@ const SliderWithPopup = () => {
        
           <div>
             <Popup  setShowForm={setShowForm}/>
-            
-
-
-
-
-            
-            
-            
           </div>
         
       )}

@@ -8,16 +8,13 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-   
     position: relative;
     background-color: #000000;
     font-family: "Poppins", sans-serif;
 }
 .navbar-menu{
     list-style: none;
-   
     display: flex;
-   
     cursor: pointer;
     position: absolute;
     right: 50px;
@@ -25,12 +22,12 @@
 }
 .navbar-menu-link{
     padding: 2px 5px;
-    color: grey;
+    color: #F4DD77;
     font-size: 1.2rem;
     gap: 20px;
     font-weight: 300;
     transition: all 0.3s ease;
-    background-color: #000000;
+    
     border-radius: 5px;
     
 }
@@ -38,11 +35,12 @@
   color: orange;
 }
 .menu{
-  color: orange;
+  color:#D3AE36;
   font-size: 1.3rem;
-  padding: 20px;
+  padding: 50px 40px 0px 0px;
   cursor: pointer;
   display: none;
+ 
 
 
  }
