@@ -1,9 +1,9 @@
-
+import './ServicePageSection.css'
 
 const ServicePageSection = () => {
   return (
     <div>
-        <h1>Service Page Section</h1>
+       
     </div>
   )
 }

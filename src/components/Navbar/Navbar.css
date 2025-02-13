@@ -8,7 +8,7 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background-color:transparent;
+   
     position: relative;
     background-color: #000000;
     font-family: "Poppins", sans-serif;
@@ -37,6 +37,46 @@
 .navbar-menu-link:hover{
   color: orange;
 }
+.menu{
+  color: orange;
+  font-size: 1.3rem;
+  padding: 20px;
+  cursor: pointer;
+  display: none;
+
+
+ }
+ .navbar-menu-link-sidebar{
+  color:black;
+  list-style: none;
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin: 0.25rem;
+ }
+ .navbar-menu-link-sidebar:hover{
+  color: orange;
+  
+ }
+ .sidebar-menu{
+  position: absolute;
+  top: 4rem;
+  right:2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+ padding: 40px;
+  align-items: center;
+  gap: 40px;
+  height:fit-content;
+  width:250px;
+  background-color: white;
+  box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+  border-radius: 1rem;
+  list-style: none;
+  background-color: rgb(81, 80, 80);
+
+ }
+
 .underline{
   text-align: center;
  
@@ -68,11 +108,7 @@
   background: orange;
   
 }
-/* .navbar-menu:has(li:hover) li:not(:hover) {
-    filter: blur(2px);
-   
 
-  }  */
 
 
   .dropdown{
@@ -81,7 +117,7 @@
   }
   .dropdown-menu{
     position: absolute;
-    top:130%;
+    top:100%;
     left: 0;
     background: white;
     min-width: 160px;
@@ -110,7 +146,7 @@
   .dropdown-menu li:hover {
     background: #f3f4f6;
   }
- 
+
  
  @media (min-width:320px) and (max-width:700px){
   .navbar .logo{
@@ -119,6 +155,9 @@
   }
   .navbar-menu{
     display: none;
+  }
+  .menu{
+    display: flex;
   }
 }
 @media (min-width:701px) and (max-width:768px){
