@@ -1,0 +1,40 @@
+.data-security-container{
+    padding: 30px 20px 100px 300px;
+    width: 90%;
+    
+}
+.data-security-container h2{
+    font-size: 40px ;
+    font-weight: 600;
+    padding: 50px 0px 10px 0px;
+    color: #ffd700;
+}
+
+.data-security-text{
+    padding: 25px 0px 50px 0px;
+}
+.data-security-container h3{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 50px 0px 10px 0px;
+    color: grey;
+}
+.data-security-contact-text{
+    padding: 15px 0px 25px 0px;
+}
+.data-security-btn{
+    padding: 15px;
+}
+.data-security-container hr{
+    background-color: orange;
+    width: 5%;
+    height: 2px;
+    border: none;
+}
+.data-security-email{
+    padding: 15px 0px 25px 0px;
+    color:#ffd700;
+}
+.data-security-email span{
+    color: grey;
+}

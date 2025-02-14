@@ -1,0 +1,14 @@
+.get-in-touch-button{
+    background: linear-gradient(90deg, #ff8a00, #e6d006);
+    color: white;
+    padding: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+.get-in-touch-button:hover {
+    background-color: #e6b800;
+  }

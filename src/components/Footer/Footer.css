@@ -1,19 +1,15 @@
 
 .footer{
-   
     background-color: #000000;
     color: white;
     padding: 100px 20px 30px 20px;
-    
-   
 }
 .social-icons{
     margin-top: 8px;
 }
 .social-links{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+ justify-content: center;
     align-items: center;
     gap: 9px;
     margin-top: 3px;
@@ -30,19 +26,22 @@
 .footer-content{
     display: flex;
     flex-direction: column;
+   
 }
 .footer-top{
     display: flex;
-    
-    justify-content: space-around;
+ justify-content: space-around;
+ flex-wrap: wrap;
     
 }
 
 .footer-content-center, .footer-content-right{
     list-style: none;
+    
+    
 }
 .footer-content-center li{
-    gap: 20px;
+    gap: 60px
 }
 .footer-logo{
     width: 150px;
@@ -73,15 +72,13 @@
 }
 .footer-text-right{
     display: flex;
-    gap: 118px;
+    justify-content:space-between;
+    flex-wrap: wrap;
     
     
     
 }
-.alignment{
-    margin-top: 13px;
-    
-}
+
 .footer-text-left{
     margin-top: 15px;
 }

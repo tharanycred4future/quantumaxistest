@@ -12,7 +12,9 @@ const ServicePageSection = () => {
         <div className='service-page-section-header'>
         <nav>
        <div>
-       <img className="abt-us-logo" src={assets.logoBgRemoved} alt=""  />
+       <img className="abt-us-logo" src={assets.logoBgRemoved
+        
+       } alt=""  />
        </div>
     <ul className="alt-navbar-links">
     

@@ -1,2 +1,9 @@
-
+.home-container{
+    background: black;
+}
  
+.get-in-touch-button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

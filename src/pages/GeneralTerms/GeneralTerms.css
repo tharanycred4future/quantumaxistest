@@ -1,0 +1,40 @@
+.general-terms-container{
+    padding: 30px 20px 100px 300px;
+    width: 90%;
+    
+}
+.general-terms-container h2{
+    font-size: 40px ;
+    font-weight: 600;
+    padding: 50px 0px 10px 0px;
+    color: #ffd700;
+}
+
+.general-terms-text{
+    padding: 25px 0px 50px 0px;
+}
+.general-terms-container h3{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 50px 0px 10px 0px;
+    color: grey;
+}
+.general-terms-contact-text{
+    padding: 15px 0px 25px 0px;
+}
+.general-terms-btn{
+    padding: 15px;
+}
+.general-terms-container hr{
+    background-color: orange;
+    width: 5%;
+    height: 2px;
+    border: none;
+}
+.general-terms-email{
+    padding: 15px 0px 25px 0px;
+    color:#ffd700;
+}
+.general-terms-email span{
+    color: grey;
+}
