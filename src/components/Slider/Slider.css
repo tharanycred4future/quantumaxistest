@@ -1,6 +1,6 @@
 .slider-container {
   
-  width: 55%;
+  width: max(25vw,180px);
   background: linear-gradient(90deg, #ff8a00, #e6d006) ;
   color: white;
   text-align: center;
@@ -47,6 +47,7 @@
     margin: 3px;
   }
   .slider-container{
+   
     padding: 15px 10px;
   }
 }

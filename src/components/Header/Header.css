@@ -32,7 +32,7 @@
   
   .title {
     font-family: "Exo", sans-serif;
-    font-size: 60px;
+    font-size:max(5vw, 80px);
     color: white;
     text-align: center;
     
@@ -47,7 +47,7 @@
   
   .fas {
     font-family: FontAwesome;
-    font-size: 60px;
+    font-size:max(5vw, 80px);
     font-style: normal;
     color: #F9D328;
     padding: 0px;
@@ -58,7 +58,7 @@
     font-weight: 400;
   }
   .hero-text{
-    font-size: 16px;
+    font-size: max(0.5vw, 30px);
     font-weight: 200;
     width: 80%;
     margin-left: 70px;
@@ -137,7 +137,7 @@
     cursor: pointer;
 
   }
-@media (min-width:320px) and (max-width:480px) {
+@media (min-width:320px) and (max-width:780px) {
   section{
     padding: 45px 0px 0px 20px;
     display:flex;
@@ -146,25 +146,14 @@
     align-items: center;
   }
   .title{
-    font-size: 45px;
-    width: 100%;
+    display: flex;
   }
   
   
  
-  h4{
-  font-size: 35px;
 
-  }
-  .fas{
-    font-size: 0px;
-  }
-  
-.hero-text{
- font-size: 15px;
- margin: 0px;
-  
-}
+ 
+
 .slider-wrapper{
   position: absolute;
   top:105%;
