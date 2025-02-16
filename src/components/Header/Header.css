@@ -32,7 +32,7 @@
   
   .title {
     font-family: "Exo", sans-serif;
-    font-size:max(5vw, 80px);
+    font-size:60px;
     color: white;
     text-align: center;
     
@@ -47,7 +47,7 @@
   
   .fas {
     font-family: FontAwesome;
-    font-size:max(5vw, 80px);
+    font-size:60px;
     font-style: normal;
     color: #F9D328;
     padding: 0px;
@@ -58,7 +58,7 @@
     font-weight: 400;
   }
   .hero-text{
-    font-size: max(0.5vw, 30px);
+    font-size:20px;
     font-weight: 200;
     width: 80%;
     margin-left: 70px;
@@ -147,9 +147,12 @@
   }
   .title{
     display: flex;
+    text-align: center;
   }
   
-  
+  .hero-text{
+    text-align: center;
+  }
  
 
  

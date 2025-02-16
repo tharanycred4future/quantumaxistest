@@ -6,7 +6,7 @@ import twitter from './twitter.png';
 import digitalAdImg from './digital ad.jpg'
 import analyticsImg from './analytics.jpg'
 import listingImg from './listing.jpg'
-import seoImg from './seo.jpg'
+import seoImg from './seo-image.png'
 import repManageImg from './reputation management.jpg'
 import socialMediaImg from './social media management.jpg'
 import webDevImg from './web development.jpg'
@@ -17,8 +17,8 @@ import crossIcon from './cross_icon.png'
 import aboutUsImg from './abt-us-header-img.png'
 import missionImg from './abt-us-misn-img1.png'
 import abtIcon1 from './icon1.png'
-
-
+import blogImg from './blog-image.jpg'
+import successStoriesImg from './success-stories.jpg'
 
 
 export const services = [
@@ -101,7 +101,9 @@ export const assets = {
     aboutUsImg,
     missionImg,
     abtIcon1,
-    logoBgRemoved
+    logoBgRemoved,
+    blogImg,
+    successStoriesImg
 
 
 

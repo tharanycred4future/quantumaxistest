@@ -18,11 +18,12 @@
     cursor: pointer;
     transform: rotateY(180deg);
 }
-/* .service-item-img{
-     width: 16rem;
-    height: 22rem;
-    object-fit: contain;
-} */
+.service-item-img{
+    width: 30px;
+    height: 20px;
+	object-fit: contain;
+   
+}
 .card{
     width: 16rem;
     height: 22rem;
