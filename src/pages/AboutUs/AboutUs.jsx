@@ -13,7 +13,7 @@ const AboutUs = () => {
       <div className="about-us-header ">
       <nav>
        <div>
-       <img className="abt-us-logo" src={assets.logoBgRemoved} alt=""  />
+       <Link to='/'><img className="abt-us-logo" src={assets.logoBgRemoved} alt=""  /></Link>
        </div>
     <ul className="alt-navbar-links">
     
@@ -50,7 +50,7 @@ const AboutUs = () => {
     </nav>
         <div className="abt-us-hero">
           <h2>We Bring Market Insight, Knowledge, and Experience To Your Marketing Blueprint</h2>
-          <p>As highly integrated business professionals, the leadership of TAA brings immense knowledge and professionalism to our dealings. Collectively, we can help you tackle all your marketing challenges with ease.<br />
+          <p>As highly integrated business professionals, the leadership of QA brings immense knowledge and professionalism to our dealings. Collectively, we can help you tackle all your marketing challenges with ease.<br />
           With us, you can expect much more marketing acumen beneath the surface as we help your business grow.</p>
         </div>
       
@@ -58,7 +58,7 @@ const AboutUs = () => {
       <div className='abt-us-mission'>
         <div className="abt-us-mission-text">
         <h3>Our Mission</h3>
-        <p>The goal of The American Acceleratus is to provide top-tier marketing services at the most reasonable price on the market. We aim to give our clients access to the benefits of a Platinum Google partnership, an international marketing workforce, and continuous support regardless of size, industry, or marketing footprint.</p>
+        <p>The goal of  Quantum Axis is to provide top-tier marketing services at the most reasonable price on the market. We aim to give our clients access to the benefits of a Platinum Google partnership, an international marketing workforce, and continuous support regardless of size, industry, or marketing footprint.</p>
         <p>We are here for you and provide multiple tiers of service to aid you in whichever stage of growth your company is on its path to maturity. See what we are capable of when we work together!</p>
         </div>
         
@@ -69,7 +69,7 @@ const AboutUs = () => {
       <div className="core-values-section">
         <div className="core-values-title">
           <h3>Core Values</h3>
-          <p>Our core values at TAA consist of the following:</p>
+          <p>Our core values at QA consist of the following:</p>
 
         </div>
         <div className="core-values">
@@ -90,7 +90,7 @@ const AboutUs = () => {
           <div className="core-value">
           <i className="fa-solid fa-recycle"></i>
             <h5>Longevity</h5>
-            <p>We believe that the mission of TAA revolves around helping small businesses grow, which is why we progressively introduce certain tools and services as our relationship begins to develop and trust is established.</p>
+            <p>We believe that the mission of QA revolves around helping small businesses grow, which is why we progressively introduce certain tools and services as our relationship begins to develop and trust is established.</p>
           </div>
           <div className="core-value">
           <i className="fa-solid fa-scroll"></i>

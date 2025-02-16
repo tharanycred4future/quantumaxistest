@@ -2,6 +2,7 @@ import GetInTouchButton from "../../components/GetInTouchButton/GetInTouchButton
 import Header from "../../components/Header/Header"
 import ServicePage from '../../components/ServicePage/ServicePage'
 import './Home.css'
+import BackToTopButton from '../../components/BackToTopButton/BackToTopButton'
 
 
 
@@ -14,6 +15,8 @@ const Home = () => {
       <ServicePage />
       <div className='get-in-touch-button-container'>
       <GetInTouchButton  />
+      
+      <BackToTopButton />
       </div>
       
       

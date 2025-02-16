@@ -9,6 +9,7 @@ nav{
 }
 .abt-us-logo{
   width: 150px; 
+  cursor: pointer;
 }
 nav .alt-navbar-links{
   list-style: none;

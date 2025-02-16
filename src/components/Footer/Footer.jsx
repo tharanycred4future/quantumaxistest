@@ -14,7 +14,7 @@ const Footer = () => {
             
             </div>
             <ul className="social-icons">
-              <h3>Connect with us:</h3>
+              <p>Connect with us:</p>
             <div className="social-links">
                 <img onClick={() =>window.open('', '_blank')} src={assets.facebookIcon} alt="" className="social-link" />
                 <img onClick={()=>window.open('','blank')}src={assets.instagram} alt="" className="social-link" />
@@ -22,15 +22,15 @@ const Footer = () => {
             </div>
           </ul>
           </div>
-          <div>
-          <ul  className="footer-content-center">
+          <div className="footer-content-center">
+          <ul >
             <li><Link to="/about-us">About Us</Link></li>
             <li><Link to="/our-team">Our Team</Link></li>
             <li><Link to="/contact-us">Contact Us</Link></li>
           </ul>
           </div>
-          <div >
-              <ul className="footer-content-right">
+          <div className="footer-content-right" >
+              <ul >
               <li><Link to="/general-terms">General Terms</Link></li>
               <li><Link to="/data-security">Data Security</Link></li>
               <li><Link to="/cookie-policy">Cookie Policy</Link></li>

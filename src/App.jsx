@@ -13,6 +13,9 @@ import CookiePolicy from './pages/CookiePolicy/CookiePolicy'
 import TermsOfService from './pages/TermsOfService/TermsOfService'
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy'
 import AltNavbar from './components/AltNavbar/AltNavbar'
+import Blogs from './pages/Blogs/Blogs'
+import SuccessStories from './pages/SuccessStories/SuccessStories'
+
 
 
 function App() {
@@ -39,6 +42,8 @@ function App() {
           <Route path="/about-us" element={<AboutUs />} />
           <Route path='/services' element={<ServicePageSection/>} />
           <Route path='/resources' element={<Resources/>} />
+          <Route path='/blogs' element = {<Blogs/>} />
+          <Route path= '/success-stories' element={<SuccessStories/>} />
           <Route path='/contact-us' element={<ContactUs />} />
           <Route path='/general-terms' element={<GeneralTerms />} />
           <Route path='/data-security' element={<DataSecurity />} />
@@ -53,6 +58,8 @@ function App() {
       
        {/* Show footer only on allowed pages */}
        {showFooter && <Footer />}
+       
+        
       </>
 
     

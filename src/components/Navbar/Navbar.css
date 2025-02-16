@@ -2,7 +2,7 @@
     width: 150px;
     margin-left: 50px;
     margin-top: 50px;
-  
+  cursor: pointer;
 }
 .navbar{
     display: flex;

@@ -12,9 +12,9 @@ const ServicePageSection = () => {
         <div className='service-page-section-header'>
         <nav>
        <div>
-       <img className="abt-us-logo" src={assets.logoBgRemoved
+       <Link to='/'><img className="abt-us-logo" src={assets.logoBgRemoved
         
-       } alt=""  />
+       } alt=""  /></Link>
        </div>
     <ul className="alt-navbar-links">
     
@@ -36,7 +36,7 @@ const ServicePageSection = () => {
     </nav>
         <div className='service-page-section-content'>
            <h5>We Strategize Your Marketing Blueprint For Accelerated Growth and Impact</h5>
-           <p>Don’t settle for marketing solutions that do not satisfy your expectations. Discover your band growth blueprint with The American Acceleratus and drive sustainable growth from your marketing efforts.</p>
+           <p>Don’t settle for marketing solutions that do not satisfy your expectations. Discover your band growth blueprint with The Quantum Axis and drive sustainable growth from your marketing efforts.</p>
         </div>
         </div>
         <div className="service-page-section-services">

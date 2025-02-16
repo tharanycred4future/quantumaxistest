@@ -7,8 +7,8 @@
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
-    transition: transform 0.3s ease;
+    transition: transform 0.6s ease;
 }
 .get-in-touch-button:hover {
-    background-color: #e6b800;
+    background: linear-gradient(90deg,  #e6d006,#ff8a00);
   }
