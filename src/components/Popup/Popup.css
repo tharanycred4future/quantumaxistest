@@ -83,7 +83,43 @@
     .popup {
       position: absolute;
       top: -340px;
-      left:   5px;
+      left:-35px;
+      width: 77%;
+      
+    }
+  }
+  @media (min-width:481px) and (max-width:768px) {
+    .popup-overlay.active{
+      position: relative;
+    }
+    .popup {
+      position: absolute;
+      top: -340px;
+      left:   -85px;
+      width: 75%;
+      
+    }
+  }
+  @media (min-width:769px) and (max-width:1024px) {
+    .popup-overlay.active{
+      position: relative;
+    }
+    .popup {
+      position: absolute;
+      top: -340px;
+      left:   -100px;
+      width: 75%;
+      
+    }
+  }
+  @media (min-width:1025px) and (max-width:1440px) {
+    .popup-overlay.active{
+      position: relative;
+    }
+    .popup {
+      position: absolute;
+      top: -340px;
+      left:   -150px;
       width: 75%;
       
     }

@@ -11,8 +11,10 @@
     justify-content: center;
     align-items: center;
     gap: 9px;
-    margin-top: 3px;
+    margin-bottom: 20px;
 }
+
+
 .social-link{
     width: 30px;
     height: 30px;
@@ -25,12 +27,13 @@
 .footer-content{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
    
 }
 .footer-content-left{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .footer-top{
@@ -129,50 +132,37 @@
     color:orange;
   }
 @media (min-width:320px) and (max-width:480px){
+    .footer{
+        padding: 80px 0px 15px 0px;
+    }
     .footer-top{
         display: flex;
         flex-direction: column;
-        gap: 35px;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        font-size: 1.1rem;
+       
     }
-    .footer-content{
-        padding: 10px;
-    }
-    .underline{
-        text-align: center;
-        padding: 5px 0px;
-        cursor: pointer;
-        letter-spacing: 2px;
-        position:relative;
-        overflow:hidden;
-        margin: 0 5px;
-        white-space: nowrap; 
-      }
-      
-      .underline:before {
-        content: "";
-        position: absolute;
-        width: 0;
-        background : #fff;
-        left: 50%;
-        height: 2px;
-        bottom: 0;
-        transition: all 0.3s ease-in-out;
-        opacity: 0.7;
-      }
-      
-      .underline:hover:before {
-        width: 100%;
-        left:0;
-        background: orange;
-        
-      }
-    .footer-text{
-        display: flex;
-        flex-direction: column;
-       text-align: center;
+    .footer-logo{
+        width: 200px;
     }
     .social-icons{
-        margin: 0px;
+       font-size: 1rem;
+       font-weight: 500;
     }
+   .footer-content-right{
+    margin-left: 22px;
+   }
+ .footer-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size:0.9rem;
+ }
+   
+    
 }
 

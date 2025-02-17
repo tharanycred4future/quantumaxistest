@@ -42,12 +42,6 @@ const SliderWithPopup = () => {
     exit: { opacity: 0, y: -50, transition: { duration: 0.3 } },
   };
 
- 
-
-
-
-
-
   return (
     <>
     <div ref={ref}>
