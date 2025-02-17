@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px 25px 50px 50px;
 }
 .contact-us-appear {
     display: flex;
@@ -12,7 +13,14 @@
   
 }
 
+.contact-us-appear h1{
+    color: #ffd700;
+    padding: 10px;
+}
 
+.contact-us-appear p{
+    color: #bdc0be;
+}
 
 .contact-container {
     display: flex;
@@ -33,7 +41,7 @@
     width: 35%;
     list-style: none;
     position: relative;
-    font-size: 1rem;
+    font-size: 0.9rem;
   
 }
 
@@ -51,6 +59,7 @@
     justify-content:flex-start;
     align-items: center;
     gap: 7px;
+   
 }
 .contact-info ul{
     display: flex;

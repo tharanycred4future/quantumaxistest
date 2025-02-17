@@ -35,7 +35,8 @@
     font-size:60px;
     color: white;
     text-align: center;
-    
+    display: flex;
+    justify-content: center;
     
     font-variation-settings: "wght" 100;
     transition: font-variation-settings 1s ease-out;
@@ -137,7 +138,7 @@
     cursor: pointer;
 
   }
-@media (min-width:320px) and (max-width:780px) {
+@media (min-width:320px) and (max-width:480px) {
   section{
     padding: 45px 0px 0px 20px;
     display:flex;
@@ -148,26 +149,253 @@
   .title{
     display: flex;
     text-align: center;
+    font-size: 30px;
+    padding:0px ;
   }
   
   .hero-text{
     text-align: center;
+    font-size: 15px;
+   margin: 0px;
   }
- 
-
- 
-
+  .fas{
+    font-size: 0px;
+  }
 .slider-wrapper{
   position: absolute;
   top:105%;
   left: 74%;
   transform: translateX(-50%);
   width: 100%;
-  max-width: 500px;
   margin-top: 30px;
 
 }
 
+
+
+}
+@media (min-width:481px) and (max-width:780px) {
+  section{
+    padding: 45px 0px 0px 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title{
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    padding:0px ;
+  }
+  
+  .hero-text{
+    text-align: center;
+    font-size: 20px;
+   margin: 0px;
+  }
+  .fas{
+    font-size: 0px;
+  }
+.slider-wrapper{
+  position: absolute;
+  top:105%;
+  left: 74%;
+  transform: translateX(-50%);
+  width: 100%;
+  margin-top: 30px;
+
+}
+
+
+
+}
+
+@media (min-width:781px) and (max-width:1100px) {
+  section{
+    padding: 45px 0px 0px 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title{
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    padding:0px ;
+  }
+  
+  .hero-text{
+    text-align: center;
+    font-size: 20px;
+   margin: 0px;
+  }
+  .fas{
+    font-size: 50px;
+  }
+.slider-wrapper{
+  position: absolute;
+  top:105%;
+  left: 74%;
+  transform: translateX(-50%);
+  width: 100%;
+  margin-top: 30px;
+
+}
+
+
+
+}
+
+@media (min-width:1100px) and (max-width:1350px) {
+  section{
+    padding: 60px 0px 0px 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title{
+    display: flex;
+    text-align: center;
+    font-size: 60px;
+    padding:0px ;
+  }
+  
+  .hero-text{
+    text-align: center;
+    font-size: 30px;
+    width: 80%;
+    margin: 0px;
+  }
+  .fas{
+    font-size: 60px;
+  }
+.slider-wrapper{
+  position: absolute;
+  top:105%;
+  left: 74%;
+  transform: translateX(-50%);
+  width: 100%;
+  margin-top: 30px;
+
+}
+
+
+
+}
+@media (min-width:1350px) and (max-width:1550px) {
+  section{
+    padding: 60px 0px 0px 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title{
+    display: flex;
+    text-align: center;
+    font-size: 70px;
+    padding:0px ;
+  }
+  
+  .hero-text{
+    text-align: center;
+    font-size: 25px;
+    width: 70%;
+   margin: 0px;
+  }
+  .fas{
+    font-size: 70px;
+  }
+.slider-wrapper{
+  position: absolute;
+  top:105%;
+  left: 74%;
+  transform: translateX(-50%);
+  width: 100%;
+  margin-top: 30px;
+
+}
+
+
+
+}
+
+@media (min-width:1550px)and (max-width:1780px){
+  section{
+    padding: 100px 0px 0px 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title{
+    display: flex;
+    text-align: center;
+    font-size: 80px;
+    padding:0px ;
+  }
+  
+  .hero-text{
+    text-align: center;
+    font-size: 30px;
+   margin: 0px;
+  }
+  .fas{
+    font-size: 80px;
+  }
+  .hero-button{
+    font-size: 20px;
+  }
+.slider-wrapper{
+  position: absolute;
+  top:105%;
+  left: 74%;
+  transform: translateX(-50%);
+  width: 100%;
+  margin-top: 30px;
+
+}
+
+}
+@media (min-width:1780px)and (max-width:2300px){
+  section{
+    padding: 100px 0px 0px 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title{
+    display: flex;
+    text-align: center;
+    font-size: 90px;
+    padding:0px ;
+  }
+  
+  .hero-text{
+    text-align: center;
+    font-size: 30px;
+   margin: 0px;
+   width: 70%;
+  }
+  .fas{
+    font-size: 90px;
+  }
+  .hero-button{
+    font-size: 25px;
+  }
+.slider-wrapper{
+  position: absolute;
+  top:105%;
+  left: 74%;
+  transform: translateX(-50%);
+  width: 100%;
+  margin-top: 30px;
+
+}
 
 }
 
