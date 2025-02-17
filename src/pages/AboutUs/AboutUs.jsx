@@ -11,11 +11,12 @@ const AboutUs = () => {
         <>
     <div className='about-us-container'>
       <div className="about-us-header ">
-      <nav>
-       <div>
+      <div className='abt-us-navbar' >
+       <div >
        <Link to='/'><img className="abt-us-logo" src={assets.logoBgRemoved} alt=""  /></Link>
-       </div>
-    <ul className="alt-navbar-links">
+       </div >
+       <div>
+         <ul  className="alt-navbar-links">
     
       <li className="alt-navbar-link  underline"><Link  to='/'>Home</Link></li>
       <li className="alt-navbar-link underline"><Link to='/about-us'>About Us</Link></li>
@@ -30,6 +31,7 @@ const AboutUs = () => {
       </li>
       <li className="alt-navbar-link underline"><Link to='/contact-us'>Contact Us</Link></li>
     </ul>
+    </div>
     <div className="toggle-btn"><FontAwesomeIcon icon={faBarsStaggered} /></div>
     <ul className="sidebar-menu" style={{display:showLinks?"flex":"none"}}>
         <li><Link to='/' className='navbar-menu-link-sidebar ' onClick={()=>setShowLinks(false)}>Home</Link></li>
@@ -47,7 +49,7 @@ const AboutUs = () => {
         <li><Link to='/contact-us' className='navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>Contact Us</Link></li>
         </ul>
 
-    </nav>
+    </div>
         <div className="abt-us-hero">
           <h2>We Bring Market Insight, Knowledge, and Experience To Your Marketing Blueprint</h2>
           <p>As highly integrated business professionals, the leadership of QA brings immense knowledge and professionalism to our dealings. Collectively, we can help you tackle all your marketing challenges with ease.<br />
@@ -60,8 +62,7 @@ const AboutUs = () => {
         <h3>Our Mission</h3>
         <p>The goal of  Quantum Axis is to provide top-tier marketing services at the most reasonable price on the market. We aim to give our clients access to the benefits of a Platinum Google partnership, an international marketing workforce, and continuous support regardless of size, industry, or marketing footprint.</p>
         <p>We are here for you and provide multiple tiers of service to aid you in whichever stage of growth your company is on its path to maturity. See what we are capable of when we work together!</p>
-        </div>
-        
+        </div> 
         <img src={assets.missionImg} alt="" className="mission-img" />
 
       </div>

@@ -1,4 +1,4 @@
-nav{
+.abt-us-navbar{
   display: flex ;
   justify-content:space-between;
   padding: 40px;
@@ -9,9 +9,10 @@ nav{
 }
 .abt-us-logo{
   width: 150px; 
+  display: flex;
   cursor: pointer;
 }
-nav .alt-navbar-links{
+.alt-navbar-links{
   list-style: none;
   display:flex;
   gap: 20px; 
@@ -53,7 +54,7 @@ nav .alt-navbar-links{
     position: relative;
     font-weight: 600;
     color: white;
-    font-size: max(4.5vw, 30px);
+    font-size: 60px;
 
   }
   .abt-us-hero p{
@@ -65,8 +66,6 @@ nav .alt-navbar-links{
     padding: 100px;
     display: flex;
     justify-content: space-around;
-    
-
   }
   .abt-us-mission-text {
     flex: 1;
@@ -155,12 +154,139 @@ nav .alt-navbar-links{
   transform: translateY(-20px);
 }
 
-@media (min-width:320px) and (max-width:700px){
- 
-  nav ul .alt-navbar-links{
+@media (min-width:320px) and (max-width:425px){
+  .abt-us-navbar{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+  }
+  .abt-us-logo{
+    width: 100px; 
+    cursor: pointer;
+
+  }
+ .alt-navbar-links{
     display: none;
   }
   .toggle-btn{
     display: flex;
   }
+  .about-us-header{
+    height: 50vw;
+  }
+  .abt-us-hero{
+    bottom: 13%;
+    left: 5vw;
+  }
+  .abt-us-hero h2{
+    font-size: 12px;
+  }
+  .abt-us-hero p{
+    font-size: 5px;
+  }
+  .abt-us-mission{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .abt-us-mission-text h3{
+    font-size: 18px;
+    padding: 10px;
+    
+  }
+  .abt-us-mission-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 10px;
+  }
+  .abt-us-mission-text p{
+    font-size: 7px;
+   
+  }
+  .mission-img{
+    width: 40%;
+    padding: 0px;
+    object-fit: contain;
+  }
+  .core-values-title p{
+    padding: 7px;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+  
+  }
+  
+}
+@media (min-width:426px) and (max-width:768px){
+  .abt-us-navbar{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+   
+  }
+  .abt-us-logo{
+    width: 100px; 
+    cursor: pointer;
+    padding: 10px 2px;
+   
+
+  }
+ .alt-navbar-links{
+    display: none;
+  }
+  .toggle-btn{
+    display: flex;
+    padding: 10px 20px;
+  }
+  .about-us-header{
+    height: 50vw;
+  }
+  .abt-us-hero{
+    bottom: 13%;
+    left: 5vw;
+  }
+  .abt-us-hero h2{
+    font-size: 30px;
+  }
+  .abt-us-hero p{
+    font-size: 12px;
+  }
+  .abt-us-mission{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .abt-us-mission-text h3{
+    font-size: 25px;
+    padding: 10px;
+    
+  }
+  .abt-us-mission-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px;
+  }
+  .abt-us-mission-text p{
+    font-size: 12px;
+   
+  }
+  .mission-img{
+   
+    padding: 20px;
+    object-fit: contain;
+  }
+  .core-values-title p{
+    padding: 12px;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+  
+  }
+  
 }
