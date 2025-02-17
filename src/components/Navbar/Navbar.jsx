@@ -22,7 +22,7 @@ const Navbar = () => {
           <Link to='/resources' className='navbar-menu-link underline'>Resources</Link>
           <ul className="dropdown-menu">
             <li><Link to='/blogs' className='dropdown-link' >Blogs</Link></li>
-            <li><Link to='/success-stories' className='dropdown-link'>Success Stories</Link></li>
+            <li><Link to='/about-us'className='dropdown-link'>Success Stories</Link></li>
           </ul>
         </li>
        

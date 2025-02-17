@@ -13,7 +13,8 @@ const Footer = () => {
             <img src={assets.logo} alt="" className="footer-logo" />
             
             </div>
-            <ul className="social-icons">
+            <div className="social-icons">
+            <ul >
               <p>Connect with us:</p>
             <div className="social-links">
                 <img onClick={() =>window.open('', '_blank')} src={assets.facebookIcon} alt="" className="social-link" />
@@ -21,6 +22,7 @@ const Footer = () => {
                 <img onClick={()=>window.open('', '_blank')} src={assets.whatsappIcon} alt="" className="social-link" />
             </div>
           </ul>
+          </div>
           </div>
           <div className="footer-content-center">
           <ul >

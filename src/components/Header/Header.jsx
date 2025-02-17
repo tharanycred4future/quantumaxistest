@@ -2,6 +2,7 @@ import './Header.css'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import SliderWithPopup from '../Slider/Slider'
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -15,12 +16,12 @@ const Header = () => {
         </div>
         <p className='hero-text'>We just don’t sell you our marketing solutions; we help you utilize these solutions to increase your sales beyond what you were doing before joining us. </p>
         
-        <motion.button 
+        <Link to='contact-us'><motion.button 
         className='hero-button'
         whileHover={{ scale: 1.2 }}
         whileTap={{ scale: 0.9 }}>
         Connect With us
-        </motion.button>
+        </motion.button></Link>
     
      </section>
 

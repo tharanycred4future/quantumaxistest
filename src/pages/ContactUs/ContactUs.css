@@ -1,39 +1,83 @@
+.contact-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us-appear {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+
 .contact-container {
     display: flex;
     justify-content: center;
-    width: 1000px;
+    width:max(70%, 900px);
     background: white;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.895);
-    margin: 50px auto;
+    margin: 10px auto;
     animation: fadeIn 1s ease-in-out;
 }
 
 .contact-info {
-    background: rgb(177, 176, 176);
-    color: black;
+    background:black;
+    color: white;
     padding: 20px;
     width: 35%;
-}
-
-.contact-info h2 {
-    margin-bottom: 15px;
-}
-
-.contact-info p {
-    margin: 5px 0;
-}
-.contact-info ul li{
     list-style: none;
+    position: relative;
+    font-size: 1rem;
   
 }
 
-.social-icons {
-    margin-top: 20px;
+.contact-info h3 {
+    margin-bottom: 15px;
+    color: #ffd700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.social-icons a {
+.contact-info p {
+    margin: 15px 0;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 7px;
+}
+.contact-info ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
+    
+}
+.hours{
+    position: relative;
+}
+.hours-text{
+    position: absolute;
+    left: 50px;
+}
+
+.contact-form-social-icons {
+    display: flex;
+    gap: 7px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 20px;
+    
+    
+}
+
+.contact-form-social-icons a {
     color: white;
     margin-right: 10px;
     text-decoration: none;
@@ -43,26 +87,29 @@
 .contact-form {
     padding: 20px;
     width: 65%;
-    background: black;
+    background: white;
+    
 }
 
-.contact-form h2 {
-    margin-bottom: 15px;
-    color: #ffd700;
-}
+
 
 .form-group {
     display: flex;
+    
     gap: 10px;
 }
 
 input, textarea {
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    margin: 15px 0;
+    border: none;
     font-size: 14px;
+  
+}
+textarea{
+    min-height: 100px;
+  resize: vertical; 
 }
 
 button {

@@ -4,12 +4,11 @@
     color: white;
     padding: 100px 20px 30px 20px;
 }
-.social-links{
-    margin-bottom: 40px;
-}
+
+
 .social-links{
     display: flex;
- justify-content: center;
+    justify-content: center;
     align-items: center;
     gap: 9px;
     margin-top: 3px;
