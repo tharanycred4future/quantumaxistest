@@ -23,7 +23,7 @@ function App() {
   const location = useLocation(); // Get the current route
 
   // Pages that should use the alternate navbar
-  const useAltNavbar = ["/about-us", "/services"].includes(location.pathname);
+  const useAltNavbar = ["/about-us", "/services","/","resources"].includes(location.pathname);
 
   // Pages that should **not** have a footer
   const hideFooterPages = ["/resources", "/contact-us"];
@@ -33,11 +33,8 @@ function App() {
 
   return (
       <>
+      {useAltNavbar ? <AltNavbar /> : <Navbar />}
       <div className='app'>
-        {/* Render different Navbar based on the page */}
-        {useAltNavbar ? <AltNavbar /> : <Navbar />}
-     
-       
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />

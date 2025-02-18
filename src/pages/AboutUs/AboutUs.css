@@ -71,13 +71,13 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 20px;
     max-width: 60%;
   }
   .abt-us-mission-text h3{
    font-size: 50px;
-   padding: 20px;
+   padding: 20px 0px;
   }
   .abt-us-mission-text p{
     font-size: 16px;
@@ -179,10 +179,77 @@
     left: 5vw;
   }
   .abt-us-hero h2{
-    font-size: 12px;
+    font-size: 10px;
   }
   .abt-us-hero p{
-    font-size: 5px;
+    font-size: 6px;
+  }
+  .abt-us-mission{
+    padding: 20px;
+    display: flex;
+   
+  }
+  .abt-us-mission-text h3{
+    font-size: 18px;
+    padding: 10px;
+    display: flex;
+    justify-content:flex-start;
+    
+  }
+  .abt-us-mission-text {
+    display: flex;
+    
+   
+    width: 60%;
+    padding: 10px;
+  }
+  .abt-us-mission-text p{
+    font-size: 7px;
+   
+  }
+  .mission-img{
+    width: 40%;
+    padding: 0px;
+    object-fit: contain;
+  }
+  .core-values-title p{
+    padding: 7px;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+  
+  }
+  
+}
+@media (min-width:376px) and (max-width:450px){
+  .abt-us-navbar{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+  }
+  .abt-us-logo{
+    width: 100px; 
+    cursor: pointer;
+
+  }
+ .alt-navbar-links{
+    display: none;
+  }
+  .toggle-btn{
+    display: flex;
+  }
+  .about-us-header{
+    height: 50vw;
+  }
+  .abt-us-hero{
+    bottom: 13%;
+    left: 5vw;
+  }
+  .abt-us-hero h2{
+    font-size: 13px;
+  }
+  .abt-us-hero p{
+    font-size: 8px;
   }
   .abt-us-mission{
     padding: 20px;
@@ -208,7 +275,8 @@
   }
   .mission-img{
     width: 40%;
-    padding: 0px;
+    padding: 10px;
+    margin-top: 45px;
     object-fit: contain;
   }
   .core-values-title p{
@@ -220,7 +288,7 @@
   }
   
 }
-@media (min-width:426px) and (max-width:768px){
+@media (min-width:450px) and (max-width:768px){
   .abt-us-navbar{
     display: flex;
     justify-content:space-between;
@@ -245,7 +313,7 @@
     height: 50vw;
   }
   .abt-us-hero{
-    bottom: 13%;
+    bottom: 24%;
     left: 5vw;
   }
   .abt-us-hero h2{
@@ -262,6 +330,76 @@
   }
   .abt-us-mission-text h3{
     font-size: 25px;
+    padding: 10px;
+    
+  }
+  .abt-us-mission-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px;
+  }
+  .abt-us-mission-text p{
+    font-size: 12px;
+   
+  }
+  .mission-img{
+   
+    padding: 20px;
+    object-fit: contain;
+  }
+  .core-values-title p{
+    padding: 12px;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+  
+  }
+  
+}
+@media (min-width:769px) and (max-width:1024px){
+  .abt-us-navbar{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+   
+  }
+  .abt-us-logo{
+    width: 130px; 
+    cursor: pointer;
+    padding: 10px 2px;
+   
+
+  }
+ .alt-navbar-links{
+    display: none;
+  }
+  .toggle-btn{
+    display: flex;
+    padding: 10px 20px;
+  }
+  .about-us-header{
+    height: 50vw;
+  }
+  .abt-us-hero{
+    bottom: 24%;
+    left: 5vw;
+  }
+  .abt-us-hero h2{
+    font-size: 40px;
+  }
+  .abt-us-hero p{
+    font-size: 17px;
+  }
+  .abt-us-mission{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .abt-us-mission-text h3{
+    font-size: 32px;
     padding: 10px;
     
   }

@@ -1,7 +1,7 @@
 .slider-container {
   
-  width: 55%;
-  background: linear-gradient(90deg, #ff8a00, #e6d006) ;
+  width: 35%;
+  background: linear-gradient(90deg, #ecd29a, #dac59b) ;
   color: white;
   text-align: center;
   padding: 20px 10px;
@@ -25,8 +25,8 @@
 .open-popup-btn{
   padding: 10px 15px;
   border: none;
-  background: orange;
-  color: white;
+  background: #f7f7f7;
+  color: black;
   cursor: pointer;
   border-radius: 5px;
   font-size: 16px;
@@ -34,7 +34,7 @@
 }
 
 .open-popup-btn:hover{
-  background-color: yellow;
+  background-color: #616541;
 }
 
 @media (min-width:320px) and (max-width:480px){

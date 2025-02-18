@@ -1,35 +1,100 @@
+.header-section-container{
+  position: relative;
+}
 
-.header {
-  position: relative; /* Enables absolute positioning inside */
+.home-logo{
+  width: 150px; 
+  display: flex;
+  cursor: pointer;
+}
+.home-header-nav-bar{
+  display: flex;
+  justify-content:space-between;
+  padding: 40px;
   width: 100%;
-  background: black;
+  height:100px;
+  position: relative;
+}
+.home-navbar-links{
+  list-style: none;
+  display:flex;
+  gap: 20px; 
+  font-size: 1.2rem; 
+  color: #dac59b;
+  position: absolute;
+  right: 60px;
+}
+
+/*hero section*/
+.header-section-header{
+  height:55vw;
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/qa.png') no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.toggle-btn{
+  color:#ffd700;
+  font-size: 1.2rem;
+  /*display: none ;*/
+}
+.home-header-hero{
+  position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 1.5vw;
+   text-align: center;
+    bottom: 40%;
+    left: 1vw;
+    z-index: 2;
+}
+.home-header-hero h2{
+  position: relative;
+  font-weight: 600;
   color: white;
-  text-align: center;
-  padding: 0px;
- 
+  font-size: 60px;
+  max-width: 100%;
+  font-variation-settings: "wght" 100;
+  transition: font-variation-settings 1s ease-out;
+}
+.home-header-hero h2:hover {
+  font-variation-settings: "wght" 1000;
+
+ }
+.home-header-hero p{
+  font-size: 1.2rem;
+  color: grey;
+  max-width: 75%;
+  
+  opacity: 0; /* Start with hidden text */
+  animation: fadeInUp 1s ease-out forwards; /* Apply the animation */
+  animation-delay: 0.5s; /* Optional: delay the animation */
+}
+.hero-button{
+  border: none;
+  color: black;
+  font-size: 1rem;
+  width: max(15vw, 200px);
+  padding: 18px 0px;
+  border-radius: 3px;
+  background-color: #dac59b;
+  cursor: pointer;
+
+}
+.hero-button:hover{
+  background-color: #ecd29a;
 }
 .slider-wrapper {
   position: absolute;
   top:100%;
   /* Adjust as needed */
-  left: 40%;
-  transform: translateX(-50%);
- 
+  left: 35%;
+  transform: translateX(-55%);
 
- 
- 
 }
-  section {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background: black;
-    padding: 180px 0px 80px 0px;
-    z-index: 1;
-  }
-  
-  
+
   .title {
     font-family: "Exo", sans-serif;
     font-size:60px;
@@ -37,14 +102,10 @@
     text-align: center;
     display: flex;
     justify-content: center;
-    
     font-variation-settings: "wght" 100;
     transition: font-variation-settings 1s ease-out;
   }
   
-  .title:hover {
-   font-variation-settings: "wght" 1000;
-  }
   
   .fas {
     font-family: FontAwesome;
@@ -124,20 +185,7 @@
     }
   }
 
-  .hero-button{
-    margin-top: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    border: none;
-    width: max(15vw, 200px);
-    padding: 20px 0px;
-    border-radius: 83px;
-    background-color: #F9D328;
-    cursor: pointer;
-
-  }
+  
 @media (min-width:320px) and (max-width:480px) {
   section{
     padding: 45px 0px 0px 20px;
