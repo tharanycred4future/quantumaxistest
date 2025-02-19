@@ -26,7 +26,7 @@ function App() {
   const useAltNavbar = ["/about-us", "/services","/","/resources"].includes(location.pathname);
 
   // Pages that should **not** have a footer
-  const hideFooterPages = ["/resources", "/contact-us"];
+  const hideFooterPages = ["/resources"];
   const showFooter = !hideFooterPages.includes(location.pathname);
 
   

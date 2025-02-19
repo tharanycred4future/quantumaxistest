@@ -21,25 +21,25 @@ const Header = () => {
                 <div>
                     <ul  className="home-navbar-links">
     
-                      <li className="home-navbar-link  underline"><Link  to='/'>Home</Link></li>
-                      <li className="home-navbar-link underline"><Link to='/about-us'>About Us</Link></li>
-                      <li className="home-navbar-link underline"><Link to='/services'>Services</Link></li>
+                      <li className="home-navbar-link  underline-home"><Link  to='/'>Home</Link></li>
+                      <li className="home-navbar-link underline-home"><Link to='/about-us'>About Us</Link></li>
+                      <li className="home-navbar-link underline-home"><Link to='/services'>Services</Link></li>
 
                       <li className='dropdown' >
-                          <div className="home-navbar-link underline"><Link to='/resources'>Resources</Link></div>
+                          <div className="home-navbar-link underline-home"><Link to='/resources'>Resources</Link></div>
                           <ul className="dropdown-menu">
                             <li><Link to='/blogs' className='dropdown-link' >Blogs</Link></li>
                             <li><Link to='/success-stories' className='dropdown-link'>Success Stories</Link></li>
                           </ul>
                       </li>
-                      <li className="home-navbar-link underline"><Link to='/contact-us'>Contact Us</Link></li>
+                      <li className="home-navbar-link underline-home"><Link to='/contact-us'>Contact Us</Link></li>
                     </ul>
                 </div>
 
 
 
                 {/*toggle menu*/}
-                <div className="toggle-btn"><FontAwesomeIcon icon={faBarsStaggered} /></div>
+                <div className="toggle-btn" onClick={()=>setShowLinks(!showLinks)}><FontAwesomeIcon  icon={faBarsStaggered} /></div>
                     <ul className="sidebar-menu" style={{display:showLinks?"flex":"none"}}>
                         <li><Link to='/' className='navbar-menu-link-sidebar ' onClick={()=>setShowLinks(false)}>Home</Link></li>
                         <li><Link to='/about-us' className='navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>About Us</Link></li>
@@ -55,6 +55,8 @@ const Header = () => {
        
                         <li><Link to='/contact-us' className='navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>Contact Us</Link></li>
                     </ul>
+                     
+                        
        
                   </div>
                   <div className="home-header-hero">

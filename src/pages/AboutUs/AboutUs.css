@@ -288,7 +288,7 @@
   }
   
 }
-@media (min-width:450px) and (max-width:768px){
+@media (min-width:451px) and (max-width:768px){
   .abt-us-navbar{
     display: flex;
     justify-content:space-between;
@@ -303,10 +303,11 @@
 
   }
  .alt-navbar-links{
-    display: none;
+  font-size: 10px;
+  gap: 0px;
   }
   .toggle-btn{
-    display: flex;
+    display: none;
     padding: 10px 20px;
   }
   .about-us-header{

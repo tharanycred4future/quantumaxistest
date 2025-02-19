@@ -39,16 +39,17 @@
 
 @media (min-width:320px) and (max-width:480px){
   .slider h2{
-    font-size: 15px;
+    font-size: 10px;
     margin-bottom: 5px;
   }
   .open-popup-btn{
-    font-size: 10px;
+    font-size: 7px;
     margin: 3px;
+    padding: 5px 7px;
   }
   .slider-container{
    
-    padding: 16px 7px;
+    padding: 13px 7px;
   }
 }
 @media (min-width:480px) and (max-width:786px){

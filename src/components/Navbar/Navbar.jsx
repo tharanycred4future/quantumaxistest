@@ -29,7 +29,7 @@ const Navbar = () => {
         <li><Link to='/contact-us' className='navbar-menu-link underline'>Contact Us</Link></li>
 
       </ul>
-
+     
       {/*Hamburger menu */}
       <FontAwesomeIcon icon={faBarsStaggered}  className="menu " onClick={()=>setShowLinks(!showLinks)} />
       

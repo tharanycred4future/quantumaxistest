@@ -54,7 +54,7 @@ list-style: none;
  justify-content: center;
  align-items: center;
  padding: 40px 20px 50px 30px;
-background-color: rgba(237, 233, 233, 0.425);
+
 }
 .services-timeline h1{
     padding: 60px;
@@ -147,4 +147,127 @@ background-color: rgba(237, 233, 233, 0.425);
 }
 .services-list-time-line li:nth-child(even){
     justify-content: flex-end;
+}
+@media (min-width:320px) and (max-width:425px){
+    .service-page-navbar{
+        display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    }
+    .service-page-logo{
+        width: 100px; 
+    }
+    .service-navbar-links{
+        display: none;
+    }
+    .toggle-btn{
+        display: flex;
+      }
+      .service-page-section-header{
+         height: 50vw;
+      }
+      .service-page-section-content{
+        bottom: 13%;
+        left: 5vw;
+      }
+      .service-page-section-content h5{
+        font-size: 13px;
+      }
+    .service-page-section-content p{
+        font-size: 6px;
+    }
+}
+
+@media (min-width:376px) and (max-width:450px){
+    .service-page-navbar{
+        display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    }
+    .service-page-logo{
+        width: 100px; 
+    }
+    .service-navbar-links{
+        display: none;
+    }
+    .toggle-btn{
+        display: flex;
+    }
+    .service-page-section-header{
+        height: 50vw;
+    }
+    .service-page-section-content{
+        bottom: 13%;
+    left: 5vw;
+    }
+    .service-page-section-content h5{
+        font-size: 13px;
+    }
+  .service-page-section-content p{
+    font-size: 8px;
+  }
+}
+@media (min-width:451px) and (max-width:768px){
+    .service-page-navbar{
+        display: flex;
+        justify-content:space-between;
+        padding: 10px;
+    }
+    .service-page-logo{
+        width: 150px; 
+    cursor: pointer;
+    padding: 10px 2px;
+    }
+    .service-navbar-links{
+       font-size: 10px;
+       gap: 0px;
+       
+    }
+    .toggle-btn{
+        display: none;
+        padding: 10px 20px;
+    }
+    .service-page-section-header{
+        height: 50vw;
+    }
+    .service-page-section-content{
+        bottom: 24%;
+        left: 5vw;
+    }
+    .service-page-section-content h5{
+        font-size: 30px;
+    }
+    .service-page-section-content p{
+        font-size: 12px;
+    }
+
+}
+@media (min-width:769px) and (max-width:1024px){
+    .service-page-navbar{
+        display: flex;
+        justify-content:space-between;
+        padding: 10px;
+    }
+    .service-page-logo{
+        width: 130px; 
+        cursor: pointer;
+        padding: 10px 2px;
+    }
+    .service-navbar-links{
+        font-size: 10px;
+       gap: 0px;
+    }
+    .service-page-section-header{
+        height: 50vw;
+    }
+    .service-page-section-content{
+        bottom: 24%;
+    left: 5vw;
+    }
+    .service-page-section-content h5{
+        font-size: 40px;
+    }
+    .service-page-section-content p{
+        font-size: 17px;
+    }
 }
