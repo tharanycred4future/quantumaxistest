@@ -31,10 +31,8 @@ const Navbar = () => {
       </ul>
      
       {/*Hamburger menu */}
-      <FontAwesomeIcon icon={faBarsStaggered}  className="menu " onClick={()=>setShowLinks(!showLinks)} />
-      
-
-      <ul className="sidebar-menu" style={{display:showLinks?"flex":"none"}}>
+      <div className="navbar-toggle-btn" onClick={()=>setShowLinks(!showLinks)} ><FontAwesomeIcon icon={faBarsStaggered} /></div>
+      <ul className="navbar-sidebar-menu" style={{display:showLinks?"flex":"none"}}>
         <li><Link to='/' className='navbar-menu-link-sidebar ' onClick={()=>setShowLinks(false)}>Home</Link></li>
         <li><Link to='/about-us' className='navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>About Us</Link></li>
         <li><Link to='/services' className='navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>Services</Link></li>

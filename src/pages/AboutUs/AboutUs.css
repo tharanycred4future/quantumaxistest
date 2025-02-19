@@ -154,6 +154,41 @@
   transform: translateY(-20px);
 }
 
+.abt-us-toggle-btn{
+  color:#dac59b;
+  font-size: 1.2rem;
+  display: none;
+}
+.abt-us-sidebar-menu{
+  position: absolute;
+  top: 4rem;
+  right:2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  align-items: center;
+  gap: 40px;
+  height:fit-content;
+  width:250px;
+  background-color: white;
+  box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+  border-radius: 1rem;
+  list-style: none;
+  background-color: rgb(81, 80, 80);
+
+}
+.abt-us-navbar-menu-link-sidebar{
+  color:black;
+  list-style: none;
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin: 0.25rem;
+}
+.abt-us-navbar-menu-link-sidebar:hover{
+  color: #ece3d0;
+}
+
 @media (min-width:320px) and (max-width:425px){
   .abt-us-navbar{
     display: flex;
@@ -221,6 +256,8 @@
   }
   
 }
+
+
 @media (min-width:376px) and (max-width:450px){
   .abt-us-navbar{
     display: flex;

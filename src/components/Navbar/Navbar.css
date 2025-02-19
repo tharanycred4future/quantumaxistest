@@ -27,22 +27,16 @@
     gap: 20px;
     font-weight: 300;
     transition: all 0.3s ease;
-    
     border-radius: 5px;
     
 }
 .navbar-menu-link:hover{
   color: #ece3d0;
 }
-.menu{
-  color:#ece3d0;
-  font-size: 1.3rem;
-  padding: 50px 40px 0px 0px;
-  cursor: pointer;
+.navbar-toggle-btn{
+  color:#dac59b;
+  font-size: 1.2rem;
   display: none;
- 
-
-
  }
  .navbar-menu-link-sidebar{
   color:black;
@@ -55,7 +49,7 @@
   color: #ece3d0;
   
  }
- .sidebar-menu{
+ .navabar-sidebar-menu{
   position: absolute;
   top: 4rem;
   right:2rem;

@@ -31,21 +31,21 @@ const ServicePageSection = () => {
       </li>
       <li className="service-navbar-link underline"><Link to='/contact-us'>Contact Us</Link></li>
     </ul>
-    <div className="toggle-btn"><FontAwesomeIcon icon={faBarsStaggered} /></div>
-    <ul className="sidebar-menu" style={{display:showLinks?"flex":"none"}}>
-        <li><Link to='/' className='navbar-menu-link-sidebar ' onClick={()=>setShowLinks(false)}>Home</Link></li>
-        <li><Link to='/about-us' className='navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>About Us</Link></li>
-        <li><Link to='/services' className='navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>Services</Link></li>
+    <div className="service-page-toggle-btn" onClick={()=>setShowLinks(!showLinks)}><FontAwesomeIcon icon={faBarsStaggered} /></div>
+    <ul className="service-page-sidebar-menu" style={{display:showLinks?"flex":"none"}}>
+        <li><Link to='/' className='service-page-navbar-menu-link-sidebar ' onClick={()=>setShowLinks(false)}>Home</Link></li>
+        <li><Link to='/about-us' className='service-page-navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>About Us</Link></li>
+        <li><Link to='/services' className='service-page-navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>Services</Link></li>
         
         <li className='dropdown' >
-          <Link to='/resources' className='navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>Resources</Link>
+          <Link to='/resources' className='service-page-navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>Resources</Link>
           <ul className="dropdown-menu">
             <li><Link to='/blogs' className='dropdown-link-sidebar exclude-blur'  onClick={()=>setShowLinks(false)}>Blogs</Link></li>
             <li><Link to='/success-stories' className='dropdown-link-sidebar exclude-blur' onClick={()=>setShowLinks(false)}>Success Stories</Link></li>
           </ul>
         </li>
        
-        <li><Link to='/contact-us' className='navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>Contact Us</Link></li>
+        <li><Link to='/contact-us' className='service-page-navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>Contact Us</Link></li>
         </ul>
        
     </div>
