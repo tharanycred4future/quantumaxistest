@@ -32,7 +32,8 @@ const AboutUs = () => {
       <li className="alt-navbar-link underline"><Link to='/contact-us'>Contact Us</Link></li>
     </ul>
     </div>
-    <div className="toggle-btn"><FontAwesomeIcon icon={faBarsStaggered} /></div>
+
+    <div className="toggle-btn" onClick={()=>setShowLinks(!showLinks)}><FontAwesomeIcon icon={faBarsStaggered} /></div>
     <ul className="sidebar-menu" style={{display:showLinks?"flex":"none"}}>
         <li><Link to='/' className='navbar-menu-link-sidebar ' onClick={()=>setShowLinks(false)}>Home</Link></li>
         <li><Link to='/about-us' className='navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>About Us</Link></li>
@@ -50,6 +51,7 @@ const AboutUs = () => {
         </ul>
 
     </div>
+    
         <div className="abt-us-hero">
           <h2>We Bring Market Insight, Knowledge, and Experience To Your Marketing Blueprint</h2>
           <p>As highly integrated business professionals, the leadership of QA brings immense knowledge and professionalism to our dealings. Collectively, we can help you tackle all your marketing challenges with ease.<br />
