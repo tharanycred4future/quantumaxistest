@@ -136,6 +136,23 @@
   .dropdown-menu li:hover {
     background: #f3f4f6;
   }
-
+@media (min-width:320px) and (max-width:450px){
+  .navbar{
+    display: flex;
+    justify-content:space-between;
+    
+  }
+  .logo{
+    width: 100px;
+    margin: 6px;
+  }
+  .navbar-menu-link{
+    display: none;
+  }
+  .navbar-toggle-btn{
+    display: flex;
+    padding: 15px;
+  }
+}
  
  

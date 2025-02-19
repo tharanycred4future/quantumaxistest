@@ -33,7 +33,7 @@ const ServicePageSection = () => {
     </ul>
     <div className="service-page-toggle-btn" onClick={()=>setShowLinks(!showLinks)}><FontAwesomeIcon icon={faBarsStaggered} /></div>
     <ul className="service-page-sidebar-menu" style={{display:showLinks?"flex":"none"}}>
-        <li><Link to='/' className='service-page-navbar-menu-link-sidebar ' onClick={()=>setShowLinks(false)}>Home</Link></li>
+        <li><Link to='/' className='service-page-navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>Home</Link></li>
         <li><Link to='/about-us' className='service-page-navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>About Us</Link></li>
         <li><Link to='/services' className='service-page-navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>Services</Link></li>
         

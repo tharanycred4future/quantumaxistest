@@ -203,7 +203,7 @@
  .alt-navbar-links{
     display: none;
   }
-  .toggle-btn{
+  .abt-us-toggle-btn{
     display: flex;
   }
   .about-us-header{
@@ -272,7 +272,7 @@
  .alt-navbar-links{
     display: none;
   }
-  .toggle-btn{
+  .abt-us-toggle-btn{
     display: flex;
   }
   .about-us-header{
@@ -343,7 +343,7 @@
   font-size: 10px;
   gap: 0px;
   }
-  .toggle-btn{
+  .abt-us-toggle-btn{
     display: none;
     padding: 10px 20px;
   }
@@ -413,7 +413,7 @@
  .alt-navbar-links{
     display: none;
   }
-  .toggle-btn{
+  .abt-us-toggle-btn{
     display: flex;
     padding: 10px 20px;
   }

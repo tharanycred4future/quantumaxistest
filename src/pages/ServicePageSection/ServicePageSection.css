@@ -156,7 +156,7 @@ list-style: none;
 }
 
 .service-page-sidebar-menu{
-    position: absolute;
+  position: absolute;
   top: 4rem;
   right:2rem;
   z-index: 2;
@@ -172,6 +172,7 @@ list-style: none;
   border-radius: 1rem;
   list-style: none;
   background-color: rgb(81, 80, 80);
+  z-index: 999;
 
 }
 .service-page-navbar-menu-link-sidebar{
@@ -196,7 +197,7 @@ list-style: none;
     .service-navbar-links{
         display: none;
     }
-    .toggle-btn{
+    .service-page-toggle-btn{
         display: flex;
       }
       .service-page-section-header{
@@ -226,7 +227,7 @@ list-style: none;
     .service-navbar-links{
         display: none;
     }
-    .toggle-btn{
+    .service-page-toggle-btn{
         display: flex;
     }
     .service-page-section-header{
@@ -259,7 +260,7 @@ list-style: none;
        gap: 0px;
        
     }
-    .toggle-btn{
+    .service-page-toggle-btn{
         display: none;
         padding: 10px 20px;
     }
