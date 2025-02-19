@@ -124,8 +124,8 @@
 	--angle: 90deg;
 	--gradX: 100%;
 	--gradY: 50%;
-	--c1: rgba(255, 215, 0, 1);
-	--c2: rgba(255, 165, 0, 0.1);
+	--c1: rgb(243, 239, 219);
+	--c2: rgba(252, 250, 247, 0.1);
 }
 .front, .back:nth-child(2) {
 	border-image: radial-gradient(

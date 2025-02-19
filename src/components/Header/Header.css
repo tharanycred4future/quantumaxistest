@@ -67,7 +67,7 @@
   font-size: 1.2rem;
   color: grey;
   max-width: 75%;
-  
+ 
   opacity: 0; /* Start with hidden text */
   animation: fadeInUp 1s ease-out forwards; /* Apply the animation */
   animation-delay: 0.5s; /* Optional: delay the animation */
@@ -81,11 +81,15 @@
   border-radius: 3px;
   background-color: #dac59b;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  
 
 }
 .hero-button:hover{
   background-color: #ecd29a;
 }
+
 .slider-wrapper {
   position: absolute;
   top:100%;

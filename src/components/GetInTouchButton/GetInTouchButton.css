@@ -1,5 +1,5 @@
 .get-in-touch-button{
-    background: linear-gradient(90deg, #ff8a00, #e6d006);
+    background: linear-gradient(90deg, #dac59b, #f6f3d7);
     color: white;
     padding: 30px;
     border: none;
@@ -10,5 +10,5 @@
     transition: transform 0.6s ease;
 }
 .get-in-touch-button:hover {
-    background: linear-gradient(90deg,  #e6d006,#ff8a00);
+    background: linear-gradient(90deg,  #f6f3d7,#dac59b);
   }

@@ -23,7 +23,7 @@ function App() {
   const location = useLocation(); // Get the current route
 
   // Pages that should use the alternate navbar
-  const useAltNavbar = ["/about-us", "/services","/","resources"].includes(location.pathname);
+  const useAltNavbar = ["/about-us", "/services","/","/resources"].includes(location.pathname);
 
   // Pages that should **not** have a footer
   const hideFooterPages = ["/resources", "/contact-us"];

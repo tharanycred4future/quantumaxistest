@@ -14,24 +14,25 @@ const ServicePageSection = () => {
        <div>
        <Link to='/'><img className="service-page-logo" src={assets.logoBgRemoved} alt=""  /></Link>
        </div>
-    <ul className="alt-navbar-links">
+    <ul className="service-navbar-links">
     
-      <li className="alt-navbar-link  underline"><Link  to='/'>Home</Link></li>
-      <li className="alt-navbar-link underline"><Link to='/about-us'>About Us</Link></li>
-      <li className="alt-navbar-link underline"><Link to='/services'>Services</Link></li>
+      <li className="service-navbar-link  underline"><Link  to='/'>Home</Link></li>
+      <li className="service-navbar-link underline"><Link to='/about-us'>About Us</Link></li>
+      <li className="service-navbar-link underline"><Link to='/services'>Services</Link></li>
 
       <li className='dropdown' >
-      <li className="alt-navbar-link underline"><Link to='/resources'>Resources</Link></li>
+      <li className="service-navbar-link underline"><Link to='/resources'>Resources</Link></li>
       <ul className="dropdown-menu">
             <li><Link to='/blogs' className='dropdown-link' >Blogs</Link></li>
             <li><Link to='/success-stories' className='dropdown-link'>Success Stories</Link></li>
       </ul>
       </li>
-      <li className="alt-navbar-link underline"><Link to='/contact-us'>Contact Us</Link></li>
+      <li className="service-navbar-link underline"><Link to='/contact-us'>Contact Us</Link></li>
     </ul>
     <div className="toggle-btn"><FontAwesomeIcon icon={faBarsStaggered} /></div>
-
+             
     </div>
+           {/*services list */}
         <div className='service-page-section-content'>
            <h5>We Strategize Your Marketing Blueprint For Accelerated Growth and Impact</h5>
            <p>Don’t settle for marketing solutions that do not satisfy your expectations. Discover your band growth blueprint with The Quantum Axis and drive sustainable growth from your marketing efforts.</p>
