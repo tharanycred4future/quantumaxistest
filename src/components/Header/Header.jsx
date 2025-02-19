@@ -39,7 +39,7 @@ const Header = () => {
 
 
                 {/*toggle menu*/}
-                <div className="toggle-btn" onClick={()=>setShowLinks(!showLinks)}><FontAwesomeIcon  icon={faBarsStaggered} /></div>
+                <div className="home-toggle-btn" onClick={()=>setShowLinks(!showLinks)}><FontAwesomeIcon  icon={faBarsStaggered} /></div>
                     <ul className="sidebar-menu" style={{display:showLinks?"flex":"none"}}>
                         <li><Link to='/' className='navbar-menu-link-sidebar ' onClick={()=>setShowLinks(false)}>Home</Link></li>
                         <li><Link to='/about-us' className='navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>About Us</Link></li>
