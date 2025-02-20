@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-
+import {servicesOnPage} from '../../assets/assets'
 import { services } from '../../assets/assets';
 import { createContext } from "react";
 
@@ -13,7 +13,8 @@ const StoreContextProvider = (props) =>{
 
 
     const contextValue = {
-        services
+        services,
+        servicesOnPage
     }
 
     return (

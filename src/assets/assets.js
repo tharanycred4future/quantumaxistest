@@ -81,6 +81,35 @@ export const services = [
     
 ]
 
+ export const servicesOnPage = [
+    {
+      title: "Web Development",
+      content:
+        "A well-designed website enhances brand visibility, creates a strong first impression, and converts visitors into loyal customers. A website can be more than an information hub—it can serve as a customer engagement tool or a sales funnel for your business.",
+      
+    },
+    {
+      title: "Digital Advertising",
+      content:
+        "Targeted ads effectively boost visibility, engagement, and sales, even for businesses with tight budgets. Advertise with us and see visible and long-term results."
+    },
+    {
+      title: "SEO",
+      content:
+        "High search rankings are crucial for business success, as visibility increases the chances of attracting customers. Be ready to show up at every opportunity with our SEO solutions."
+    },
+    {
+      title: "Social Media Marketing",
+      content:
+        "An effective social media strategy helps attract new customers, engage them with valuable content, and build loyal followers. With the right approach, social media simplifies customer relationship management and drives business growth."
+    },
+    {
+      title: "Analytics",
+      content:
+        "Analytics provides data-driven insights to measure, track, and optimize business performance. Unlock the power of data to drive smarter decisions and accelerate growth with actionable insights."
+    }
+  ];
+
 export const assets = {
     logo,
     services,
@@ -103,7 +132,8 @@ export const assets = {
     abtIcon1,
     logoBgRemoved,
     blogImg,
-    successStoriesImg
+    successStoriesImg,
+    servicesOnPage
 
 
 

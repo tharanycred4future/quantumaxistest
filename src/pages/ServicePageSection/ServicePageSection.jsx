@@ -2,11 +2,14 @@ import './ServicePageSection.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBarsStaggered } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
-import { assets } from '../../assets/assets'
-import { useState } from 'react'
+import { assets,  } from '../../assets/assets'
+import { useState, useContext } from 'react'
+import ServicePageItem from '../../components/ServicePageItem/ServicePageItem'
+import { StoreContext } from '../../components/context/StoreContext'
 
 
 const ServicePageSection = () => {
+  const {servicesOnPage} = useContext(StoreContext)
   const [showLinks,setShowLinks] = useState(false)
   return (
     <div className='service-page-section'>
@@ -59,71 +62,11 @@ const ServicePageSection = () => {
          <h1> Our Services</h1>
          <div className="service-page-section-services">
          <ul className="services-list-time-line" >
-          <li>
-            <details className='panel'>
-              <summary>Web Development</summary>
-              <p>A well-designed website enhances brand visibility, creates a strong first impression, and converts visitors into loyal customers.</p>
-              <p>A website can be more than an information hub—it can serve as a customer engagement tool or a sales funnel for your business.</p>
-  
-
-            </details>
-          </li>
-          <li>
-            <details className='panel'>
-              <summary>Digital Advertising</summary>
-              <p>Targeted ads effectively boost visibility, engagement, and sales, even for businesses with tight budgets.</p>
-              <p>Advertise with us and see visible and long-term results.</p>
-  
-
-            </details>
-          </li>
-          <li>
-            <details className='panel'>
-              <summary>Social</summary>
-              <p>An effective social media strategy helps attract new customers, engage them with valuable content, and build loyal followers</p>
-              <p>With the right approach, social media simplifies customer relationship management and drives business growth</p>
-  
-
-            </details>
-          </li>
-          <li>
-            <details className='panel'>
-              <summary>Reputation Management</summary>
-              <p>A good reputation builds credibility, but ignoring negative reviews can drive customers away.</p>
-              <p>Manage reviews from one dashboard, request feedback, and turn negative reviews into opportunities for customer satisfaction and brand growth.</p>
-  
-
-            </details>
-          </li>
-          <li>
-            <details className='panel'>
-              <summary>Listing</summary>
-              <p>Accurate business listings ensure your local customers can find and contact you easily online.</p>
-              <p>Manage, claim, and monitor your listings with us.</p>
-  
-
-            </details>
-          </li>
-          <li>
-            <details className='panel'>
-              <summary>SEO</summary>
-              <p>High search rankings are crucial for business success, as visibility increases the chances of attracting customers.</p>
-              <p>Be ready to show up at every opportunity with our SEO solutions.</p>
-  
-
-            </details>
-          </li>
-          <li>
-            <details className='panel'>
-              <summary>Analytics</summary>
-              <p>Analytics provides data-driven insights to measure, track, and optimize business performance</p>
-              <p>Unlock the power of data to drive smarter decisions and accelerate growth with actionable insights</p>
-  
-
-            </details>
-          </li>
-
-
+         {servicesOnPage.map((service, index) => (
+            <li key={index}>
+              <ServicePageItem title={service.title} content={service.content} />
+            </li>
+          ))}
          </ul>
          </div>
 
