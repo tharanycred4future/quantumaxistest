@@ -12,9 +12,6 @@ const ServiceItem = ({name,text,image,description}) => {
               <div  className="service-item-img-container front" >
                 <img src={image} alt="" className="service-item-img" />
                 <p className="front-text">{name}</p>
-               
-                  
-            
               </div>
               
         

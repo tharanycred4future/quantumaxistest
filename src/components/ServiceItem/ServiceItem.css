@@ -17,10 +17,10 @@
     cursor: pointer;
     transform: rotateY(180deg);
 }
-.service-item-img{
-    width: 30px;
+.service-item-img-container img{
+    width: 150px;
     height: 20px;
-	object-fit: contain;
+	
    
 }
 .card{
@@ -94,7 +94,7 @@
 
 }
 .service-item-title{
-	color: #FFD700;
+	color: #ece3d0;
 }
 
 .front-text{

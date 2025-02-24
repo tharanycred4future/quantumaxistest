@@ -83,7 +83,7 @@
 .home-header-hero h2{
   position: relative;
   font-weight: 600;
-  color: white;
+  color:#F5E1C0;
   font-size: 60px;
   max-width: 100%;
   font-variation-settings: "wght" 100;
@@ -95,7 +95,7 @@
  }
 .home-header-hero p{
   font-size: 1.2rem;
-  color: grey;
+  color: #E0E0E0;
   max-width: 75%;
   opacity: 0; /* Start with hidden text */
   animation: fadeInUp 1s ease-out forwards; /* Apply the animation */
@@ -103,12 +103,12 @@
 }
 .hero-button{
   border: none;
-  color: black;
+  color: #3E2723;
   font-size: 1rem;
   width:150px;
   padding: 18px 0px;
   border-radius: 3px;
-  background-color: #dac59b;
+  background-color: #D4AF37;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -202,7 +202,7 @@
   }
  
 
-  h4 {
+ .animation-class {
     
     letter-spacing: 0;
     padding: 0px;

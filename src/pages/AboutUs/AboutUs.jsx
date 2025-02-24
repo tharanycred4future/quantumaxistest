@@ -42,8 +42,8 @@ const AboutUs = () => {
         <li className='dropdown' >
           <Link to='/resources' className='abt-us-navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>Resources</Link>
           <ul className="dropdown-menu">
-            <li><Link to='/blogs' className='dropdown-link-sidebar exclude-blur'  onClick={()=>setShowLinks(false)}>Blogs</Link></li>
-            <li><Link to='/success-stories' className='dropdown-link-sidebar exclude-blur' onClick={()=>setShowLinks(false)}>Success Stories</Link></li>
+            <li><Link to='/blogs' className='dropdown-link-sidebar'  onClick={()=>setShowLinks(false)}>Blogs</Link></li>
+            <li><Link to='/about-us' className='dropdown-link-sidebar ' onClick={()=>setShowLinks(false)}>Success Stories</Link></li>
           </ul>
         </li>
        
