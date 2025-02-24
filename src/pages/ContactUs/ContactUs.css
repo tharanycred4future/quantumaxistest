@@ -24,6 +24,7 @@
 
 .contact-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     width:800px;
     background: white;
@@ -38,10 +39,11 @@
     background:black;
     color: white;
     padding: 20px;
-    width: 38%;
+    width: 100%;
     list-style: none;
     position: relative;
     font-size: 0.9rem;
+    flex: 1;
   
 }
 
@@ -97,14 +99,14 @@
     padding: 20px;
     width: 65%;
     background: white;
-    
+    flex: 1;
 }
 
 
 
 .form-group {
     display: flex;
-    
+    flex-wrap: wrap;
     gap: 10px;
 }
 
@@ -132,4 +134,55 @@ button {
 
 button:hover {
     background: #bdc0be;
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+    .contact-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .contact-info, .contact-form {
+        width: 100%;
+    }
+
+    .contact-form-social-icons {
+        position: static;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-form-container {
+        padding: 20px;
+    }
+
+    .contact-us-appear h1 {
+        font-size: 24px;
+    }
+
+    .contact-us-appear p {
+        font-size: 14px;
+    }
+
+    .contact-info h3 {
+        font-size: 18px;
+    }
+
+    .contact-info p, .contact-info ul {
+        font-size: 14px;
+    }
+
+    .contact-form {
+        padding: 10px;
+    }
+
+    input, textarea {
+        font-size: 12px;
+    }
+
+    button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
 }
