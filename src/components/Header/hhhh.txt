@@ -100,3 +100,87 @@ export default ProductLink;
 >
   Click Me
 </motion.button>
+
+
+@media (min-width:771px) and (max-width:1025px){
+  .home-logo{
+    width: 150px ;
+  }
+  .home-header-nav-bar{
+    padding: 30px;
+  }
+  .home-navbar-links{
+    font-size: 15px;
+     gap: 0px;
+  }
+  .home-toggle-btn{
+    display: flex;
+  }
+  .header-section-header{
+    height: 55vw;
+  }
+.home-header-hero{
+  bottom: 30%;
+}
+.home-header-hero h2{
+  font-size: 50px;
+}
+.home-header-hero p{
+  font-size: 22px;
+}
+.hero-button{
+  width: 150px;
+  font-size: 1rem;
+  padding: 10px;
+}
+.slider-wrapper{
+  top: 425px;
+  left: 60px;
+  transform: translateX(-50px);
+}
+}
+@media (min-width:1026px) and (max-width:1440px){
+  .slider-wrapper{
+    top: 650px;
+    left: 60px;
+    transform: translateX(-50px);
+  }
+}
+
+@media  (max-width:480px){
+  .home-logo{
+    width: 100px ;
+  }
+  .home-header-nav-bar{
+    padding: 10px;
+  }
+  .home-navbar-links{
+    display: none;
+  }
+  .home-toggle-btn{
+    display: flex;
+  }
+  .header-section-header{
+    height: 50vw;
+  }
+.home-header-hero{
+  bottom: 15%;
+}
+.home-header-hero h2{
+  font-size: 15px;
+}
+.home-header-hero p{
+  font-size: 7px;
+}
+.hero-button{
+  width: 120px;
+  font-size: 0.5rem;
+  padding: 5px;
+}
+.slider-wrapper{
+  top: 145px;
+  left: 60px;
+  transform: translateX(-50px);
+}
+
+ }

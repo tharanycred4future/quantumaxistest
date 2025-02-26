@@ -283,7 +283,7 @@
 }
 
  }
-@media (min-width:321px) and (max-width:430px){
+@media (min-width:321px) and (max-width:450px){
   .home-logo{
     width: 100px ;
   }
@@ -319,7 +319,44 @@
   transform: translateX(-50px);
 }
 }
-@media (min-width:431px) and (max-width:770px){
+@media (min-width:451px) and (max-width:600px){
+  .home-logo{
+    width: 100px ;
+  }
+  .home-header-nav-bar{
+    padding: 10px;
+  }
+  .home-navbar-links{
+    display: none;
+  }
+  .home-toggle-btn{
+    display: flex;
+  }
+  .header-section-header{
+    height: 60vw;
+  }
+.home-header-hero{
+  bottom: 35%;
+}
+.home-header-hero h2{
+  font-size: 17px;
+}
+.home-header-hero p{
+  font-size: 10px;
+}
+.hero-button{
+  width: 120px;
+  font-size: 0.5rem;
+  padding: 5px;
+}
+.slider-wrapper{
+  width: 700px;
+  top: 265px;
+  left: 60px;
+  transform: translateX(-50px);
+}
+}
+@media (min-width:601px) and (max-width:769px){
   .home-logo{
     width: 150px ;
   }
@@ -327,17 +364,54 @@
     padding: 20px;
   }
   .home-navbar-links{
-    font-size: 10px;
-     gap: 0px;
+  display: none;
   }
   .home-toggle-btn{
-    display: flex;
+    display:flex;
   }
   .header-section-header{
     height: 55vw;
   }
 .home-header-hero{
   bottom: 30%;
+}
+.home-header-hero h2{
+  font-size: 35px;
+}
+.home-header-hero p{
+  font-size: 14px;
+}
+.hero-button{
+  width: 150px;
+  font-size: 01rem;
+  padding: 5px;
+}
+.slider-wrapper{
+  top: 320px;
+  left: 60px;
+  transform: translateX(-50px);
+  width:850px;
+}
+}
+@media (min-width:770px) and (max-width:999px){
+  .home-logo{
+    width: 150px ;
+  }
+  .home-header-nav-bar{
+    padding: 20px;
+  }
+  .home-navbar-links{
+    font-size: 12px;
+    gap: 0px;
+  }
+  .home-toggle-btn{
+    display: none;
+  }
+  .header-section-header{
+    height: 55vw;
+  }
+.home-header-hero{
+  bottom: 20%;
 }
 .home-header-hero h2{
   font-size: 40px;
@@ -351,12 +425,13 @@
   padding: 5px;
 }
 .slider-wrapper{
-  top: 325px;
+  top: 400px;
   left: 60px;
   transform: translateX(-50px);
+  width:850px;
 }
 }
-@media (min-width:771px) and (max-width:1025px){
+@media (min-width:1000px) and (max-width:1200px){
   .home-logo{
     width: 150px ;
   }
@@ -393,9 +468,18 @@
   transform: translateX(-50px);
 }
 }
-@media (min-width:1026px) and (max-width:1440px){
+@media (min-width:1201px) and (max-width:1440px){
   .slider-wrapper{
-    top: 650px;
+    width:80%;
+    top: 600px;
+    left: 60px;
+    transform: translateX(-50px);
+  }
+}
+@media (min-width:1201px) and (max-width:1600px){
+  .slider-wrapper{
+    width:80%;
+    top: 600px;
     left: 60px;
     transform: translateX(-50px);
   }
