@@ -1,7 +1,7 @@
 .slider-container {
-  
   width: 35%;
-  background: linear-gradient(90deg, #ecd29a, #dac59b) ;
+  background: rgba(255, 255, 255, 0.1) ;
+  backdrop-filter: blur(10px);
   color: white;
   text-align: center;
   padding: 20px 10px;
@@ -25,16 +25,17 @@
 .open-popup-btn{
   padding: 10px 15px;
   border: none;
-  background: #f7f7f7;
-  color: black;
+  background: #8F6A66;
+  color: white;
   cursor: pointer;
   border-radius: 5px;
   font-size: 16px;
   margin-top: 10px;
+  font-family: Lato ;
 }
 
 .open-popup-btn:hover{
-  background-color: #D4AF37;
+  background-color: #9C889C;
 }
 
 @media (min-width:320px) and (max-width:450px){

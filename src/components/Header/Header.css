@@ -20,7 +20,7 @@
   display:flex;
   gap: 10px; 
   font-size: 1.2rem; 
-  color: #dac59b;
+  color: #DBBEAA;
   position: absolute;
   right: 60px;
 }
@@ -28,12 +28,12 @@
 /*hero section*/
 .header-section-header{
   height:55vw;
-  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/qa.png') no-repeat;
+  background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('/qa.png') no-repeat;
   background-size: cover;
   position: relative;
 }
 .home-toggle-btn{
-  color:#dac59b;
+  color:#DBBEAA;
   font-size: 1.2rem;
   display: none ;
 }
@@ -81,9 +81,10 @@
     
   }
 .home-header-hero h2{
+  font-family: Poppins;
   position: relative;
   font-weight: 600;
-  color:#F5E1C0;
+  color:#DBBEAA;
   font-size: 60px;
   max-width: 100%;
   font-variation-settings: "wght" 100;
@@ -108,13 +109,14 @@
   width:150px;
   padding: 18px 0px;
   border-radius: 3px;
-  background-color: #D4AF37;
+  background: rgba(255, 255, 255, 0.4) ;
+  border: 1px solid white;
   cursor: pointer;
   display: flex;
   justify-content: center;
 }
 .hero-button:hover{
-  background-color: #ecd29a;
+  background: rgba(255, 255, 255, 0.7) ;
 }
 
 .slider-wrapper {

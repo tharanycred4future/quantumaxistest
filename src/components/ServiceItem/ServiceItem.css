@@ -4,7 +4,8 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-	border-radius: 3px;
+	background: #1a1919 ;
+  backdrop-filter: blur(10px);
     color: white;
     border-radius: 10px;
      width: 16rem;
@@ -43,7 +44,7 @@
     backface-visibility: hidden;
 
     /*border animation  starts */
-    border: 0.2rem solid;
+    border: 0.1rem solid;
     border-image: conic-gradient(
 			from var(--angle),
 			var(--c2),
@@ -63,7 +64,8 @@
     height: 22rem;
 }
 .back{
-    background-color: black;
+    background: rgba(255, 255, 255, 0.1) ;
+  	backdrop-filter: blur(10px);
     transform :rotateY(180deg);
     display: flex;
     flex-direction: column;
