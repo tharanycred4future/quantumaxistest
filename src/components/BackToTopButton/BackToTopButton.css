@@ -20,7 +20,7 @@
   }
   
   .back-to-top:hover {
-    background: linear-gradient(90deg,  #f6f3d7,#dac59b);
+    background: rgba(255, 255, 255, 0.1);
   }
   
   .back-to-top.show {

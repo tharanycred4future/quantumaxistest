@@ -22,7 +22,7 @@ list-style: none;
 }
 .service-page-section-header{
     height:50vw;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/service-header-img.jpeg') no-repeat;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('/service-header-img.jpeg') no-repeat;
     background-size: cover;
     position: relative;
     justify-content: flex-end;
@@ -54,7 +54,7 @@ list-style: none;
  justify-content: center;
  align-items: center;
  padding: 40px 20px 50px 30px;
- background-color:rgba(161, 157, 157, 0.306);
+ background-color:grey;
 
 }
 .services-timeline h1{
