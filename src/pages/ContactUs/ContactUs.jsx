@@ -18,7 +18,7 @@ const ContactForm = () => {
       
       <div className="contact-info">
         <h3>Contact Information</h3>
-        <p><FontAwesomeIcon icon={faEnvelope} /> outreach@americanacceleratus.com</p>
+        <p><FontAwesomeIcon icon={faEnvelope} /> outreach@quantumaxis.com</p>
         <ul> <FontAwesomeIcon className="hours" icon={faBusinessTime} /><strong>Hours of Operation</strong></ul>
             <li className="hours-text">M – F: 8:00 am – 5:00 pm CST</li>
 
