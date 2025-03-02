@@ -125,6 +125,7 @@
   /* Adjust as needed */
   left: 45%;
   transform: translateX(-55%);
+  overflow: hidden;
  }
 
 .underline-home{
@@ -356,6 +357,7 @@
   top: 265px;
   left: 60px;
   transform: translateX(-50px);
+  
 }
 }
 @media (min-width:601px) and (max-width:769px){
