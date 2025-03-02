@@ -188,7 +188,7 @@ list-style: none;
 .service-page-navbar-menu-link-sidebar:hover{
     color: #ece3d0;
 }
-@media (min-width:320px) and (max-width:425px){
+@media (max-width:320px){
     .service-page-navbar{
         display: flex;
     justify-content:space-between;
@@ -217,8 +217,7 @@ list-style: none;
         font-size: 6px;
     }
 }
-
-@media (min-width:376px) and (max-width:450px){
+@media (min-width:321px) and (max-width:450px){
     .service-page-navbar{
         display: flex;
     justify-content:space-between;
@@ -232,22 +231,51 @@ list-style: none;
     }
     .service-page-toggle-btn{
         display: flex;
-    }
-    .service-page-section-header{
-        height: 50vw;
-    }
-    .service-page-section-content{
+      }
+      .service-page-section-header{
+         height: 50vw;
+      }
+      .service-page-section-content{
         bottom: 13%;
-    left: 5vw;
-    }
-    .service-page-section-content h5{
+        left: 5vw;
+      }
+      .service-page-section-content h5{
         font-size: 13px;
+      }
+    .service-page-section-content p{
+        font-size: 6px;
     }
-  .service-page-section-content p{
-    font-size: 8px;
-  }
 }
-@media (min-width:451px) and (max-width:768px){
+@media (min-width:451px) and (max-width:600px){
+    .service-page-navbar{
+        display: flex;
+        justify-content:space-between;
+        padding: 10px;
+    }
+    .service-page-logo{
+        width: 100px; 
+    }
+    .service-navbar-links{
+        display: none;
+    }
+    .service-page-toggle-btn{
+        display: flex;
+      }
+      .service-page-section-header{
+         height: 50vw;
+      }
+      .service-page-section-content{
+        bottom: 13%;
+        left: 5vw;
+      }
+      .service-page-section-content h5{
+        font-size: 15px !important;
+      }
+    .service-page-section-content p{
+        font-size: 9px !important;
+    }
+}
+@media (min-width:601px) and (max-width:769px){
     .service-page-navbar{
         display: flex;
         justify-content:space-between;
@@ -255,12 +283,46 @@ list-style: none;
     }
     .service-page-logo{
         width: 150px; 
-    cursor: pointer;
-    padding: 10px 2px;
+       cursor: pointer;
+       padding: 10px 2px;
     }
     .service-navbar-links{
-       font-size: 10px;
-       gap: 0px;
+       display: none;
+       
+    }
+    .service-page-toggle-btn{
+        display: flex;
+        padding: 10px 20px;
+    }
+    .service-page-section-header{
+        height: 50vw;
+    }
+    .service-page-section-content{
+        bottom: 24%;
+        left: 5vw;
+    }
+    .service-page-section-content h5{
+        font-size: 20px !important;
+    }
+    .service-page-section-content p{
+        font-size: 12px !important;
+    }
+
+}
+@media (min-width:770px) and (max-width:999px){
+    .service-page-navbar{
+        display: flex;
+        justify-content:space-between;
+        padding: 10px;
+    }
+    .service-page-logo{
+        width: 150px; 
+        cursor: pointer;
+        padding: 10px 2px;
+    }
+    .service-navbar-links{
+        font-size: 12px;
+        gap: 0px;
        
     }
     .service-page-toggle-btn{
@@ -275,39 +337,151 @@ list-style: none;
         left: 5vw;
     }
     .service-page-section-content h5{
-        font-size: 30px;
+        font-size: 20px !important;
     }
     .service-page-section-content p{
-        font-size: 12px;
+        font-size: 12px !important;
     }
 
 }
-@media (min-width:769px) and (max-width:1024px){
+@media (min-width:1000px) and (max-width:1200px){
     .service-page-navbar{
         display: flex;
         justify-content:space-between;
         padding: 10px;
     }
     .service-page-logo{
-        width: 130px; 
+        width: 150px; 
         cursor: pointer;
         padding: 10px 2px;
     }
     .service-navbar-links{
-        font-size: 10px;
-       gap: 0px;
+        font-size: 12px;
+        gap: 0px;
+       
+    }
+    .service-page-toggle-btn{
+        display: none;
+        padding: 10px 20px;
     }
     .service-page-section-header{
         height: 50vw;
     }
     .service-page-section-content{
         bottom: 24%;
-    left: 5vw;
+        left: 5vw;
     }
     .service-page-section-content h5{
-        font-size: 40px;
+        font-size: 20px !important;
     }
     .service-page-section-content p{
-        font-size: 17px;
+        font-size: 12px !important;
     }
+
+}
+@media (min-width:1000px) and (max-width:1200px){
+    .service-page-navbar{
+        display: flex;
+        justify-content:space-between;
+        padding: 10px;
+    }
+    .service-page-logo{
+        width: 150px; 
+        cursor: pointer;
+        padding: 10px 2px;
+    }
+    .service-navbar-links{
+        font-size: 12px;
+        gap: 0px;
+       
+    }
+    .service-page-toggle-btn{
+        display: none;
+        padding: 10px 20px;
+    }
+    .service-page-section-header{
+        height: 50vw;
+    }
+    .service-page-section-content{
+        bottom: 24%;
+        left: 5vw;
+    }
+    .service-page-section-content h5{
+        font-size: 20px !important;
+    }
+    .service-page-section-content p{
+        font-size: 12px !important;
+    }
+
+}
+
+@media (min-width:1000px) and (max-width:1200px){
+    .service-page-navbar{
+        display: flex;
+        justify-content:space-between;
+        padding: 10px;
+    }
+    .service-page-logo{
+        width: 150px; 
+        cursor: pointer;
+        padding: 10px 2px;
+    }
+    .service-navbar-links{
+        font-size: 12px;
+        gap: 0px;
+       
+    }
+    .service-page-toggle-btn{
+        display: none;
+        padding: 10px 20px;
+    }
+    .service-page-section-header{
+        height: 50vw;
+    }
+    .service-page-section-content{
+        bottom: 24%;
+        left: 5vw;
+    }
+    .service-page-section-content h5{
+        font-size: 20px !important;
+    }
+    .service-page-section-content p{
+        font-size: 12px !important;
+    }
+
+}
+@media (min-width:1201px) and (max-width:1440px){
+    .service-page-navbar{
+        display: flex;
+        justify-content:space-between;
+        padding: 10px;
+    }
+    .service-page-logo{
+        width: 150px; 
+        cursor: pointer;
+        padding: 10px 2px;
+    }
+    .service-navbar-links{
+        font-size: 12px;
+        gap: 0px;
+       
+    }
+    .service-page-toggle-btn{
+        display: none;
+        padding: 10px 20px;
+    }
+    .service-page-section-header{
+        height: 50vw;
+    }
+    .service-page-section-content{
+        bottom: 24%;
+        left: 5vw;
+    }
+    .service-page-section-content h5{
+        font-size: 50px !important;
+    }
+    .service-page-section-content p{
+        font-size: 17px !important;
+    }
+
 }

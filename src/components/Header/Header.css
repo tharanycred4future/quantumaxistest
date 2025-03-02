@@ -478,7 +478,7 @@
     transform: translateX(-50px);
   }
 }
-@media (min-width:1201px) and (max-width:1600px){
+@media (min-width:1441px) and (max-width:1600px){
   .slider-wrapper{
     width:80%;
     top: 600px;
