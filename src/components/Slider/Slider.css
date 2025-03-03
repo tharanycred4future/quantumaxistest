@@ -6,6 +6,7 @@
   text-align: center;
   padding: 20px 10px;
   border: 1px solid white;
+ 
 }
 .slider-container.visible {
   opacity: 1;

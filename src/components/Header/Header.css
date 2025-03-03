@@ -125,7 +125,9 @@
   /* Adjust as needed */
   left: 45%;
   transform: translateX(-55%);
-  overflow: hidden;
+  
+  
+  
  }
 
 .underline-home{
@@ -320,6 +322,7 @@
   top: 185px;
   left: 60px;
   transform: translateX(-50px);
+  
 }
 }
 @media (min-width:451px) and (max-width:600px){
@@ -353,11 +356,10 @@
   padding: 5px;
 }
 .slider-wrapper{
-  width: 700px;
+  width: 80%;
   top: 265px;
   left: 60px;
   transform: translateX(-50px);
-  
 }
 }
 @media (min-width:601px) and (max-width:769px){
@@ -394,7 +396,8 @@
   top: 320px;
   left: 60px;
   transform: translateX(-50px);
-  width:850px;
+  width:80%;
+  
 }
 }
 @media (min-width:770px) and (max-width:999px){
@@ -432,7 +435,8 @@
   top: 400px;
   left: 60px;
   transform: translateX(-50px);
-  width:850px;
+  width:80%;
+ 
 }
 }
 @media (min-width:1000px) and (max-width:1200px){
@@ -483,7 +487,7 @@
 @media (min-width:1441px) and (max-width:1600px){
   .slider-wrapper{
     width:80%;
-    top: 600px;
+    top: 750px;
     left: 60px;
     transform: translateX(-50px);
   }

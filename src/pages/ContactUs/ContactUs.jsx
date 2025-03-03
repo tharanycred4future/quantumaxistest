@@ -40,7 +40,7 @@ const ContactForm = () => {
             <input type="text" placeholder="Phone Number" />
           
           
-          <textarea placeholder="Do you have any questions for us?" />
+          <textarea placeholder="Message us?" />
           
           <button type="submit">Send →</button>
         </form>
