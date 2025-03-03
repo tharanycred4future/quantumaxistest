@@ -356,8 +356,8 @@
   padding: 5px;
 }
 .slider-wrapper{
-  width: 80%;
-  top: 265px;
+  width: 100%;
+  top: 220px;
   left: 60px;
   transform: translateX(-50px);
 }
@@ -393,10 +393,10 @@
   padding: 5px;
 }
 .slider-wrapper{
-  top: 320px;
+  top: 280px;
   left: 60px;
   transform: translateX(-50px);
-  width:80%;
+  width:100%;
   
 }
 }
@@ -432,7 +432,7 @@
   padding: 5px;
 }
 .slider-wrapper{
-  top: 400px;
+  top: 380px;
   left: 60px;
   transform: translateX(-50px);
   width:80%;
