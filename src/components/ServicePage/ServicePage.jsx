@@ -2,7 +2,7 @@ import './ServicePage.css'
 import {StoreContext} from '../../components/context/StoreContext';
 import {useContext} from 'react'
 import ServiceItem from '../../components/ServiceItem/ServiceItem'
-
+     {/*This code works on home page service section */}
 const ServicePage = () => {
 
     const {services} = useContext(StoreContext)

@@ -10,11 +10,13 @@ const AboutUs = () => {
   return (
         <>
     <div className='about-us-container'>
+      {/*header content for about us page- Navbar+ hero content */}
       <div className="about-us-header ">
       <div className='abt-us-navbar' >
        <div >
        <Link to='/'><img className="abt-us-logo" src={assets.logoBgRemoved} alt=""  /></Link>
        </div >
+       {/*navbar code */}
        <div>
          <ul  className="alt-navbar-links">
     
@@ -32,7 +34,7 @@ const AboutUs = () => {
       <li className="alt-navbar-link underline"><Link to='/contact-us'>Contact Us</Link></li>
     </ul>
     </div>
-
+        {/*toggle button menu */}
     <div className="abt-us-toggle-btn" onClick={()=>setShowLinks(!showLinks)}><FontAwesomeIcon icon={faBarsStaggered} /></div>
     <ul className="abt-us-sidebar-menu" style={{display:showLinks?"flex":"none"}}>
         <li><Link to='/' className='abt-us-navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>Home</Link></li>
@@ -51,7 +53,7 @@ const AboutUs = () => {
         </ul>
 
     </div>
-    
+        {/*about us page hero content */}
         <div className="abt-us-hero">
           <h2>We Bring Market Insight, Knowledge, and Experience To Your Marketing Blueprint</h2>
           <p>As highly integrated business professionals, the leadership of QA brings immense knowledge and professionalism to our dealings. Collectively, we can help you tackle all your marketing challenges with ease.<br />
@@ -68,7 +70,7 @@ const AboutUs = () => {
         <img src={assets.missionImg} alt="" className="mission-img" />
 
       </div>
-
+          {/*core values section */}
       <div className="core-values-section">
         <div className="core-values-title">
           <h3>Core Values</h3>

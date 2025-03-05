@@ -7,6 +7,7 @@ import { useState, useContext } from 'react'
 import ServicePageItem from '../../components/ServicePageItem/ServicePageItem'
 import { StoreContext } from '../../components/context/StoreContext'
 
+ {/*this code works for Service Page */}
 
 const ServicePageSection = () => {
   const {servicesOnPage} = useContext(StoreContext)
@@ -18,7 +19,9 @@ const ServicePageSection = () => {
          <div className="service-page-navbar">
        <div>
        <Link to='/'><img className="service-page-logo" src={assets.logoBgRemoved} alt=""  /></Link>
+         {/*service page header */}
        </div>
+       {/*service page navbar */}
     <ul className="service-navbar-links">
     
       <li className="service-navbar-link  underline"><Link  to='/'>Home</Link></li>
@@ -34,6 +37,7 @@ const ServicePageSection = () => {
       </li>
       <li className="service-navbar-link underline"><Link to='/contact-us'>Contact Us</Link></li>
     </ul>
+    {/*toggle button menu */}
     <div className="service-page-toggle-btn" onClick={()=>setShowLinks(!showLinks)}><FontAwesomeIcon icon={faBarsStaggered} /></div>
     <ul className="service-page-sidebar-menu" style={{display:showLinks?"flex":"none"}}>
         <li><Link to='/' className='service-page-navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>Home</Link></li>

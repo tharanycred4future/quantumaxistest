@@ -6,12 +6,13 @@ const Footer = () => {
   console.log(assets.logo);
   return (
     <div className='footer' id='footer'>
+      {/*footer content */}
       <div className="footer-content">
+         {/*footer top content */}
         <div className="footer-top">
           <div className="footer-content-left">
             <div className='footer-content-left-in'>
             <img src={assets.logo} alt="" className="footer-logo" />
-            
             </div>
             <div className="social-icons">
             <ul >
@@ -40,7 +41,8 @@ const Footer = () => {
           </div>
           
         </div>
-          
+        
+          {/*footer bottom content */}
          
           <div className="footer-bottom">
           <hr />

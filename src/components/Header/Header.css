@@ -161,30 +161,10 @@
   }
   
   
-  .title {
-    font-family: "Exo", sans-serif;
-    font-size:60px;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    font-variation-settings: "wght" 100;
-    transition: font-variation-settings 1s ease-out;
-  }
   
   
-  .fas {
-    font-family: FontAwesome;
-    font-size:60px;
-    font-style: normal;
-    color: #F9D328;
-    padding: 0px;
-    margin-bottom: -10px;
-    transform: translateY(-5px);
-    display: flex;
-    line-height: 20px;
-    font-weight: 400;
-  }
+  
+  
   .hero-text{
     font-size:20px;
     font-weight: 200;

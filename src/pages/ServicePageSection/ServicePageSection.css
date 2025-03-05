@@ -15,11 +15,13 @@
 list-style: none;
   display:flex;
   gap: 20px; 
-  font-size: 1.2rem; 
-  color: #F4DD77;
+  font-size: 1.2rem !important; 
+  color: #DBBEAA;
   position: absolute;
   right: 60px;
 }
+
+/*hero section*/
 .service-page-section-header{
     height:50vw;
     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('/service-header-img.jpeg') no-repeat;
@@ -152,7 +154,7 @@ list-style: none;
 }
 
 .service-page-toggle-btn{
-    color:#dac59b;
+    color:#DBBEAA;
   font-size: 1.2rem;
   display: none;
 }

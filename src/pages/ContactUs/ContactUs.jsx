@@ -14,6 +14,7 @@ const ContactForm = () => {
       <h1>Contact Us</h1>
       <p>Get in touch with us to learn more about our services and how we can help you.</p>
     </div>
+      {/*contact form code */}
     <div className="contact-container">
       
       <div className="contact-info">

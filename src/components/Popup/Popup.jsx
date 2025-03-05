@@ -1,5 +1,5 @@
 
-import "./Popup.css"; // Make sure this file contains your styles
+import "./Popup.css"; 
 import PropTypes from "prop-types"; // Import PropTypes
 import { assets } from "../../assets/assets";
 

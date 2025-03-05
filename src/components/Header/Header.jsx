@@ -13,12 +13,14 @@ const Header = () => {
   return (
     <>
       <div className="header-section-container">
+        {/*header content - Navbar + Hero Content*/}
         <div className="header-section-header">
           <div className="home-header-nav-bar">
           <div >
               <Link to='/'><img className="home-logo" src={assets.logoBgRemoved} alt=""  /></Link>
           </div >
                 <div>
+                  {/* Home Navbar */}
                     <ul  className="home-navbar-links">
     
                       <li className="home-navbar-link  underline-home"><Link  to='/'>Home</Link></li>
@@ -36,8 +38,6 @@ const Header = () => {
                     </ul>
                 </div>
 
-
-
                 {/*toggle menu*/}
                 <div className="home-toggle-btn" onClick={()=>setShowLinks(!showLinks)}><FontAwesomeIcon  icon={faBarsStaggered} /></div>
                     <ul className="home-sidebar-menu" style={{display:showLinks?"flex":"none"}}>
@@ -52,12 +52,9 @@ const Header = () => {
                               <li><Link to='/about-us' className='dropdown-link-sidebar exclude-blur' onClick={()=>setShowLinks(false)}>Success Stories</Link></li>
                           </ul>
                         </li>
-       
+      
                         <li><Link to='/contact-us' className='home-navbar-menu-link-sidebar' onClick={()=>setShowLinks(false)}>Contact Us</Link></li>
                     </ul>
-                     
-                        
-       
                   </div>
                   <div className="home-header-hero">
                     <h2>Accelerate Your Business Growth</h2>
@@ -69,30 +66,13 @@ const Header = () => {
                             Connect With us
                     </motion.button></Link>
                   </div>
-      
               </div>
-    
-        
         </div>
-
+          {/*Slider Appears*/}
         <div className="slider-wrapper">
           <SliderWithPopup />
         </div>
-      
         </>
-   
   );
 }
-
 export default Header
-
-
-
-
-
-
-
-
-
-
-{/**/}

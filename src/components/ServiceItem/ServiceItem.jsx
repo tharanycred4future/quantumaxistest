@@ -8,13 +8,13 @@ const ServiceItem = ({name,text,image,description}) => {
     <div className="service-item">
      
       <div className="card">
-      
+              {/*Service Item Front  */}
               <div  className="service-item-img-container front" >
-                <img src={image} alt="" className="service-item-img" />
+                <img src={image} alt="service Item Icon" className="service-item-img" />
                 <p className="front-text">{name}</p>
               </div>
               
-        
+               {/*Service Item back on hovering  */}
               <div className="service-item-des back">
         
                   <h3 className="service-item-title">{name}</h3>

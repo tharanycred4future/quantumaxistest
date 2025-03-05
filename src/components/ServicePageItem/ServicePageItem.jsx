@@ -1,7 +1,7 @@
 import {  useState} from "react";
 import PropTypes from "prop-types";
 import './ServicePageItem.css'
-
+       {/*This code works on Service Page*/}
 const ServicePageItem = ({ title, content }) => {
 
     

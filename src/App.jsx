@@ -16,9 +16,6 @@ import AltNavbar from './components/AltNavbar/AltNavbar'
 import Blogs from './pages/Blogs/Blogs'
 import SuccessStories from './pages/SuccessStories/SuccessStories'
 
-
-
-
 function App() {
   const location = useLocation(); // Get the current route
 

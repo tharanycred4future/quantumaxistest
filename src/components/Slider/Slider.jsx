@@ -3,7 +3,7 @@ import { motion , useAnimation } from "framer-motion";
 import './Slider.css';
 import Popup from "../Popup/Popup";
 
-
+{/*This code works for slider's motion on home page */}
 const SliderWithPopup = () => {
   
   const [showForm, setShowForm] = useState(false);
@@ -58,7 +58,7 @@ const SliderWithPopup = () => {
         </button>
       </motion.div>
 
-      {/* Popup Form */}
+      {/* Popup Form - Get Free Report form will show up on clicking on Free Snap Shot Report button */}
       {showForm && (
        
           <div>
